@@ -17,23 +17,38 @@
 * **System Diagram for Audio**
 
 * **System Diagram for Control**
+
 ---
 
 ## Content (For storyboard):
-Station 1:
-### Introduction:
+* Link to Storyboard : <https://docs.google.com/document/d/1KEb-f6_v6F4EKD2sPoBHARdEkY_rYMqPzDgraHSt4g8/edit?usp=sharing>
 
-* Uses Light sensor and Touch sensor (for introducing what climate change is)
+* Storyboard Images :  
 
-* Procedes to explain more on climate change(Cause by high emission of greenhouse gasses) 
+Station 1 :
+![Alt text](StoryboardPics/Screenshot%202023-05-10%20012517.png)
 
-* Extra infomation on human activities that is the main cause of the excess greenhouse gasses
+<br>
 
-* Impacts on one of the example (industrial agricuture)
+Station 2:
+![Alt text](StoryboardPics/IMG_E6243.JPG)
 
-* Quetionnaire at the end of the station
+<br>
 
-### **Questionnaire:**
-- What causes climate change? (uses 2light sensors)
+Station 3:
+![Alt text](StoryboardPics/IMG_6245.JPG)
+<br>
 
-- Which of the following is human activities? ( 1 IR Sensor and 1 Light Sensor)
+![Alt text](StoryboardPics/IMG_E6247.JPG)
+
+<br>
+
+Station 4 : 
+![Alt text](StoryboardPics/IMG_E6244.JPG)
+
+
+
+
+
+
+
