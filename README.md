@@ -2,7 +2,6 @@
 
 ## Documentation:
 ---
-## Product Backlog #1
 
 * **Floor Plan(planning of where equipment and props will be placed)**
 
