@@ -19,6 +19,17 @@
 
 ---
 
+## Floor Plan:
+* **Overall Top View**
+![Alt text](315Images/Screenshot%202023-06-06%20152543.jpg)
+
+* **Detailed Top View of 1 station**
+![Alt text](315Images/Screenshot%202023-06-06%20152600.jpg)
+
+* **Detailed Side View of 1 station**
+![Alt text](315Images/Screenshot%202023-06-06%20152615.jpg)
+
+---
 ## Content (For storyboard):
 * Link to Storyboard : <https://docs.google.com/document/d/1KEb-f6_v6F4EKD2sPoBHARdEkY_rYMqPzDgraHSt4g8/edit?usp=sharing>
 
@@ -45,9 +56,32 @@ Station 3:
 Station 4 : 
 ![Alt text](StoryboardPics/IMG_E6244.JPG)
 
+---
+## **System Diagram for Video**
+
+![Alt text](315Images/Screenshot%202023-06-06%20152205.jpg )
+
+---
+## **System Diagram for Audio**
+
+![Alt text](315Images/Screenshot%202023-06-06%20152316.jpg)
+
+---
+## **System Diagram for Lighting**
+![Alt text](315Images/Screenshot%202023-06-06%20152242.jpg)
+
+---
+## **System Diagram for Control**
+* **Projector Control**
+![Alt text](315Images/Screenshot%202023-06-06%20152331.jpg)
+
+* **Phidget Sensor System Control**
+![Alt text](315Images/Screenshot%202023-06-06%20152351.jpg)
+
+---
+# **Props used for interactions:**
 
 
 
-
-
-
+---
+# Installation:
