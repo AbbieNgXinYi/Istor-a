@@ -77,7 +77,6 @@ Station 4 :
 * **Projector Control**
 ![Alt text](315Images/Screenshot%202023-06-06%20152331.jpg)
 
-
 * **Phidget Sensor System Control**
 ![Alt text](315Images/Screenshot%202023-06-06%20152351.jpg)
 
