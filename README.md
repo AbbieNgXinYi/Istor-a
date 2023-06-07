@@ -103,13 +103,26 @@ Station 4 :
 ## Control Installation
 
 ---
-# **Props used for interactions:**
+# Operational Phase:
+## Christie Pandora Box
+---
 
-* **The props below is for the audience to use to interact when they have to select different options to progress the storyline**
+1) **After downloading the Christie Pandora Box and Christie Pandora Server Management, you would need to buy the licence in order to run the pandora box**
 
-* **The pickaxe is used to proceed the storyline(the right answer).**
+2) **After having both the licence and the pandora box, open up the pandora server management, in the server management, you need to open the media server *(Direct connection from laptop to the media server with licence)*.**
 
-* **The other 2 options are the wrong answers where the video will proceed to play other scenerios until the right answers are chosen.**
+3) **Afterwards, you can open the Pandora Box application, both laptop and the server management, create new project, and add video assets into the media server. Ensure that the video assets are on different layers and that the layers are not hidden**
+
+4) **In order to mesh the video output to fit the screen output, you would need to right click on the folder, rename it for easy recognition, and mesh it to fit the screen that you are projecting the video onto.**
+---
+## **Props used for interaction**
+---
+
+1) **The props below is for the audience to use to interact when they have to select different options to progress the storyline**
+
+2) **The pickaxe is used to proceed the storyline(the right answer).**
+
+3) **The other 2 options are the wrong answers where the video will proceed to play other scenerios until the right answers are chosen.**
 
 ![Alt text](Interactimg/IMG20230606154514.jpg)
 
@@ -117,18 +130,6 @@ Station 4 :
 
 ![Alt text](Interactimg/IMG20230606160140.jpg)
 
----
-# Installation:
-
-1) **Setup the 1projector and 1 speaker next to each other per 1station. Maximum 4stations to be set up.**
-
-2) **Setup the interactions needed per station( buttons,props,IR Sensors)**
-
-3) **Have a media server to play out the video from the laptop. Ensure that the cable from the laptop to media server has an output to the projectors with the amplifier(for speakers) to play out the video with audio.**
-
-4) **On the laptop, install Christie Pandora Box with Licence to do video meshing and video output from projectors.**
-
-5) **Once that is done, The setup should be up and ready to play automated/manual for the audience to enjoy.**
 ---
 ## Troubleshooting
 ---
