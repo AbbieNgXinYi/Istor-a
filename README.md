@@ -190,6 +190,7 @@ Turn the Input Attenuation to 0 dB
 3) Knowing the value of the diamond, you sought to steal the diamond to pay off his late rent of his house.
 
 4) You will be given several options to choose from to aid your character to successfully steal the diamond.
+
 ---
 ## Troubleshooting
 ---
