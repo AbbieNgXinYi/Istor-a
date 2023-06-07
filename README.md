@@ -31,30 +31,29 @@
 
 ---
 ## Content (For storyboard):
-* Link to Storyboard : <https://docs.google.com/document/d/1KEb-f6_v6F4EKD2sPoBHARdEkY_rYMqPzDgraHSt4g8/edit?usp=sharing>
+* Link to Storyboard : <https://docs.google.com/document/d/13bTYwS7OguV5ErM58ChDM_zm_8Gb3v3b/edit?usp=sharing&ouid=104765151469211705872&rtpof=true&sd=true>
 
 * Storyboard Images :  
 
 Station 1 :
-![Alt text](StoryboardPics/Screenshot%202023-05-10%20012517.png)
+![Alt text](henrystdsb/station1.jpg)
 
 <br>
 
 Station 2:
-![Alt text](StoryboardPics/IMG_E6243.JPG)
+![Alt text](henrystdsb/station2.jpg)
 
 <br>
 
 Station 3:
-![Alt text](StoryboardPics/IMG_6245.JPG)
+![Alt text](henrystdsb/station3.jpg)
 <br>
 
-![Alt text](StoryboardPics/IMG_E6247.JPG)
 
 <br>
 
 Station 4 : 
-![Alt text](StoryboardPics/IMG_E6244.JPG)
+![Alt text](henrystdsb/station4.jpg)
 
 ---
 # **Setup Progress**
@@ -133,7 +132,9 @@ Station 4 :
 ---
 ## Testing Phase
 ---
-### Stealing the Diamond
+
+![Alt text](henrystdsb/henrystd.jpg)
+### **Stealing the Diamond**
 1) You are playing as the main character(Henry Stickmin). After the events of Escaping the Prison, you are resting at home. 
 
 2) You tune in to the television where you see the mayor annoucning the grand opening of the new museum. Within the new exhibits sits a priceless diamond.
