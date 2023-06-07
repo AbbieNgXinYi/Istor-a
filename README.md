@@ -1,39 +1,5 @@
 # Istor-a
 
-## Documentation:
----
-
-* **Floor Plan(planning of where equipment and props will be placed)**
-
-* **Plan out Content( Storyboard the Content)**
-
-* **Planning of props for interactivity(The usage of props for audience to interact with)**
-
-* **System Diagram for Video**
-
-* **System Diagram for Lighting**
-
-* **System Diagram for Audio**
-
-* **System Diagram for Control**
-
----
-
-## Floor Plan:
-* **Overall Top View**
-![Alt text](315Images/537.png)
-
-* **Detailed Top View of 1 station**
-![Alt text](315Images/537%20-%202.png)
-![Alt text](315Images/537%20-3.png)
-
-* **Detailed Side View of 1 station**
-![Alt text](315Images/537%20side.png)
-
-* **Detailed of the equipments (placed at both top corner of the room)**
-![Alt text](315Images/537%20-4.png)
-
----
 ## Content (For storyboard):
 * Link to Storyboard : <https://docs.google.com/document/d/13bTYwS7OguV5ErM58ChDM_zm_8Gb3v3b/edit?usp=sharing&ouid=104765151469211705872&rtpof=true&sd=true>
 
@@ -86,7 +52,24 @@ Station 4 :
 
 ---
 
-## Video Installation
+## Floor Plan:
+* **Overall Top View**
+![Alt text](315Images/537.png)
+
+* **Detailed Top View of 1 station**
+![Alt text](315Images/537%20-%202.png)
+![Alt text](315Images/537%20-3.png)
+
+* **Detailed Side View of 1 station**
+![Alt text](315Images/537%20side.png)
+
+* **Detailed of the equipments (placed at both top corner of the room)**
+![Alt text](315Images/537%20-4.png)
+
+---
+
+## Installation
+### Video System
 
 1) In our setup, we are using two laptops. 1 laptop per 2 stations. They are powered using the power adapter.
 
@@ -95,10 +78,11 @@ Station 4 :
 3) In order to use Christie Pandora Box **( A projection mapping software )**, we require a licence for both the media server and the laptop.
 
 4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector( 1st station ) via HDMI to LAN cable. Repeat the same step for the second projector( 2nd station ).
+
 ---
-## **Audio Installation**
 
 
+### Audio System
 
 Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
 ![Alt text](315Images/photo_6053084928981186284_y.jpg)
@@ -109,17 +93,36 @@ Turn the Input Attenuation to 0 dB
 
 
 ---
-## **Lighting Installation**
+### Lighting System
 1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
 
-2) Ensure that there is power to power on the DMX Driver if not the light **( LED Strips )** would not be turned on. *[Light is mainly used to tell audience where the 1st station is till the end]*
----
-## Control Installation
+2) Ensure that there is power to power on the DMX Driver if not the light **(LED Strips)** would not be turned on. *[Light is mainly used to tell audience where the 1st station is till the end]*
 
 ---
-# Operational Phase:
-## Christie Pandora Box
+### Control System
+#### Phidget Control System
+**In this setup, we will are using 2 phidget interface. The interface we are using is the phidget interface 8/8/8.**
+
+##### Station 1
+1) The sensors we have in station are:
+    - 1 Rotary potentiometer
+    - 1 Button
+    - 1 Phidget Advance servo 8-Motor
+    - 1 RC servo motor
+
+2) The phidget interface is connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the phidget interface and laptop is place.
+
+3) The phidget interface consists of 7 digital and analog inputs.
+
+4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
+
+5) For the interactivity to work, we will be using an application called Widget Designer to program the button and sensor.
+
+6) Link to the program files: 
+
 ---
+## Operational Phase:
+### Christie Pandora Box
 
 1) **After downloading the Christie Pandora Box and Christie Pandora Server Management, you would need to buy the licence in order to run the pandora box**
 
@@ -128,9 +131,9 @@ Turn the Input Attenuation to 0 dB
 3) **Afterwards, you can open the Pandora Box application, both laptop and the server management, create new project, and add video assets into the media server. Ensure that the video assets are on different layers and that the layers are not hidden**
 
 4) **In order to mesh the video output to fit the screen output, you would need to right click on the folder, rename it for easy recognition, and mesh it to fit the screen that you are projecting the video onto.**
+
 ---
 ## **Props used for interaction**
----
 
 1) **The props below is for the audience to use to interact when they have to select different options to progress the storyline**
 
