@@ -21,13 +21,14 @@
 
 ## Floor Plan:
 * **Overall Top View**
-![Alt text](315Images/Screenshot%202023-06-06%20152543.jpg)
+![Alt text](315Images/537.png)
 
 * **Detailed Top View of 1 station**
-![Alt text](315Images/Screenshot%202023-06-06%20152600.jpg)
+![Alt text](315Images/537%20-%202.png)
+![Alt text](315Images/537%20-3.png)
 
 * **Detailed Side View of 1 station**
-![Alt text](315Images/Screenshot%202023-06-06%20152615.jpg)
+![Alt text](315Images/537%20side.png)
 
 ---
 ## Content (For storyboard):
