@@ -57,6 +57,8 @@ Station 4 :
 ![Alt text](StoryboardPics/IMG_E6244.JPG)
 
 ---
+# **Setup Progress**
+
 ## **System Diagram for Video**
 
 ![Alt text](315Images/Screenshot%202023-06-06%20152205.jpg )
@@ -77,6 +79,28 @@ Station 4 :
 
 * **Phidget Sensor System Control**
 ![Alt text](315Images/Screenshot%202023-06-06%20152351.jpg)
+
+---
+
+## Video Installation
+
+1) In our setup, we are using two laptops. 1 laptop per 2 stations. They are powered using the power adapter.
+
+2) From 1 of our laptop, we connected LAN cable to the Media Server.
+
+3)In order to use Christie Pandora Box **( A projection mapping software )**, we requrire a liicence for both the media server and the laptop.
+
+4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector( 1st station ) via HDMI to LAN cable. Repeat the same step for the second projector( 2nd station ).
+---
+## **Audio Installation**
+
+---
+## **Lighting Installation**
+1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
+
+2) Ensure that there is power to power on the DMX Driver if not the light **( LED Strips )** would not be turned on. *[Light is mainly used to tell audience where the 1st station is till the end]*
+---
+## Control Installation
 
 ---
 # **Props used for interactions:**
@@ -105,3 +129,6 @@ Station 4 :
 4) **On the laptop, install Christie Pandora Box with Licence to do video meshing and video output from projectors.**
 
 5) **Once that is done, The setup should be up and ready to play automated/manual for the audience to enjoy.**
+---
+## Troubleshooting
+---
