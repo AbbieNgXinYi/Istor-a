@@ -97,12 +97,17 @@ Station 4 :
 4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector( 1st station ) via HDMI to LAN cable. Repeat the same step for the second projector( 2nd station ).
 ---
 ## **Audio Installation**
-1) Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
+
+
+
+Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
 ![Alt text](315Images/photo_6053084928981186284_y.jpg)
 ![Alt text](315Images/photo_6053084928981186285_y.jpg)
 
-2) Turn the Input Attenuation to 0 dB
+Turn the Input Attenuation to 0 dB
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
+
+
 ---
 ## **Lighting Installation**
 1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
