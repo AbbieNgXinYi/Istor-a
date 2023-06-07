@@ -30,6 +30,9 @@
 * **Detailed Side View of 1 station**
 ![Alt text](315Images/537%20side.png)
 
+* **Detailed of the equipments (placed at both top corner of the room)**
+![Alt text](315Images/537%20-4.png)
+
 ---
 ## Content (For storyboard):
 * Link to Storyboard : <https://docs.google.com/document/d/13bTYwS7OguV5ErM58ChDM_zm_8Gb3v3b/edit?usp=sharing&ouid=104765151469211705872&rtpof=true&sd=true>
