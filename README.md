@@ -86,9 +86,9 @@ Station 4 :
 
 1) In our setup, we are using two laptops. 1 laptop per 2 stations. They are powered using the power adapter.
 
-2) From 1 of our laptop, we connected LAN cable to the Media Server.
+2) From 1 of our laptops, we connect via LAN cable to the Media Server.
 
-3)In order to use Christie Pandora Box **( A projection mapping software )**, we requrire a liicence for both the media server and the laptop.
+3) In order to use Christie Pandora Box **( A projection mapping software )**, we require a licence for both the media server and the laptop.
 
 4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector( 1st station ) via HDMI to LAN cable. Repeat the same step for the second projector( 2nd station ).
 ---
