@@ -64,12 +64,13 @@ Station 4 :
 
 ## **System Diagram for Video**
 
-![Alt text](315Images/Screenshot%202023-06-06%20152205.jpg )
+![Alt text](315Images/537%20video.png)
 
 ---
 ## **System Diagram for Audio**
 
 ![Alt text](315Images/Screenshot%202023-06-06%20152316.jpg)
+![Alt text](315Images/537%20video%202.png)
 
 ---
 ## **System Diagram for Lighting**
@@ -96,13 +97,9 @@ Station 4 :
 4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector( 1st station ) via HDMI to LAN cable. Repeat the same step for the second projector( 2nd station ).
 ---
 ## **Audio Installation**
-
-![Alt text](315Images/IMG20230607170711.jpg)
-
-![Alt text](315Images/IMG20230607170751.jpg)
-
-![Alt text](315Images/IMG20230607170813.jpg)
-
+![Alt text](315Images/photo_6053084928981186284_y.jpg)
+![Alt text](315Images/photo_6053084928981186285_y.jpg)
+![Alt text](315Images/photo_6053084928981186287_y.jpg)
 ---
 ## **Lighting Installation**
 1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
