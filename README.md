@@ -131,5 +131,16 @@ Station 4 :
 ![Alt text](Interactimg/IMG20230606160140.jpg)
 
 ---
+## Testing Phase
+---
+### Stealing the Diamond
+1) You are playing as the main character(Henry Stickmin). After the events of Escaping the Prison, you are resting at home. 
+
+2) You tune in to the television where you see the mayor annoucning the grand opening of the new museum. Within the new exhibits sits a priceless diamond.
+
+3) Knowing the value of the diamond, you sought to steal the diamond to pay of his late rent of his house.
+
+4) You will be given several options to choose from to aid your character to successfully steal the diamond.
+---
 ## Troubleshooting
 ---
