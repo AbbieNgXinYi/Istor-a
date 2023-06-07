@@ -1,10 +1,8 @@
 # Istor-a
 
 ## Content (For storyboard):
-* Link to Storyboard : <https://docs.google.com/document/d/13bTYwS7OguV5ErM58ChDM_zm_8Gb3v3b/edit?usp=sharing&ouid=104765151469211705872&rtpof=true&sd=true>
-
 * Storyboard Images :  
-
+* The Great Diamond heist/Stealing the Diamond
 Station 1 :
 ![Alt text](henrystdsb/station1.jpg)
 
@@ -141,6 +139,15 @@ Turn the Input Attenuation to 0 dB
 4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
 
 5) The 3 IR sensors are connected to another 3 digital inputs. Each IR sensor is to one cue in the video timeline.
+
+6) The Button is to enable for the video to start
+
+7) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
+  through our program.
+
+8) For the interactivity to work, we will be using an application called Widget Designer to program the button and sensor.
+
+9) Program Files can be found under **WD Files** in this GitHub Repository
 
 
 ---
