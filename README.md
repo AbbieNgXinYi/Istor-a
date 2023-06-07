@@ -81,7 +81,8 @@ Station 4 :
 
 
 ### Audio System
-
+1) In  our setup, we will be using 4 passive speakers, 1 for each station. 
+2) All 4 of the passive speakers will be connected to an ampliflier using speaker cables
 Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
 ![Alt text](315Images/photo_6053084928981186284_y.jpg)
 ![Alt text](315Images/photo_6053084928981186285_y.jpg)
