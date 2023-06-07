@@ -104,13 +104,14 @@ Turn the Input Attenuation to 0 dB
 **In this setup, we will are using 2 phidget interface. The interface we are using is the phidget interface 8/8/8.**
 
 ##### Station 1
-1) The sensors we have in station are:
+1) The sensors we have in station 1 are:
     - 1 Rotary potentiometer
     - 1 Button
     - 1 Phidget Advance servo 8-Motor
     - 1 RC servo motor
 
-2) The phidget interface is connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the phidget interface and laptop is place.
+2) The phidget interface is connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup 
+   due to the location of where the phidget interface and laptop is place.
 
 3) The phidget interface consists of 7 digital and analog inputs.
 
@@ -118,7 +119,29 @@ Turn the Input Attenuation to 0 dB
 
 5) For the interactivity to work, we will be using an application called Widget Designer to program the button and sensor.
 
-6) Link to the program files: 
+6) Program Files can be found under **WD Files** in this GitHub Repository
+
+7) The Button is to enable for the video to start
+
+8) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
+  through our program.
+
+
+##### Station 2
+1) The sensors we have in 2 are:
+    - 3 IR digital distance sensors
+    - 1 Button
+    - 1 Rotary potentiometer
+
+2) The phidget interface is connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup 
+   due to the location of where the phidget interface and laptop is place.
+
+3) The phidget interface consists of 7 digital and analog inputs.
+
+4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
+
+5) The 3 IR sensors are connected to another 3 digital inputs. Each IR sensor is to one cue in the video timeline.
+
 
 ---
 ## Operational Phase:
