@@ -97,6 +97,12 @@ Station 4 :
 ---
 ## **Audio Installation**
 
+![Alt text](315Images/IMG20230607170711.jpg)
+
+![Alt text](315Images/IMG20230607170751.jpg)
+
+![Alt text](315Images/IMG20230607170813.jpg)
+
 ---
 ## **Lighting Installation**
 1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
