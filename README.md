@@ -79,9 +79,9 @@ Station 4 :
 
 2) From 1 of our laptops, we connect via LAN cable to the Media Server.
 
-3) In order to use Christie Pandora Box **( A projection mapping software )**, we require a licence for both the media server and the laptop.
+3) In order to use **Christie Pandora Box** (A projection mapping software), we require a licence for both the media server and the laptop.
 
-4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector( 1st station ) via HDMI to LAN cable. Repeat the same step for the second projector( 2nd station ).
+4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector (1st station) via HDMI to LAN cable. Repeat the same step for the second projector (2nd station).
 
 ---
 
@@ -112,7 +112,7 @@ Turn the Input Attenuation to 0 dB
   The interface we are using is the phidget interface 8/8/8.**
 
 ##### Station 1
-1) **The sensors we have in station 1 are:**
+1) The sensors we have in station 1 are:
     - 1 Rotary potentiometer
     - 1 Button
     - 1 Phidget Advance servo 8-Motor
@@ -139,7 +139,7 @@ Turn the Input Attenuation to 0 dB
 
 
 ##### Station 2
-1) **The sensors we have in 2 are:**
+1) The sensors we have in station 2 are:
     - 1 Phidget RIFD 
     - 3 Phidget RFID discs
     - 1 Button
@@ -167,29 +167,100 @@ Turn the Input Attenuation to 0 dB
 ## Operational Phase:
 ### Christie Pandora Box
 
-1) **After downloading the Christie Pandora Box and Christie Pandora Server Management, you would need to buy the licence in order to run the pandora box**
+1) After downloading the Christie Pandora Box and Christie Pandora Server Management, you would need to buy the licence in order to run the pandora box
 
-2) **After having both the licence and the pandora box, open up the pandora server management, in the server management, you need to open the media server *(Direct connection from laptop to the media server with licence)*.**
+2) After having both the licence and the pandora box, open up the pandora server management, in the server management, you need to open the media server *(Direct connection from laptop to the media server with licence)*.
 
-3) **Afterwards, you can open the Pandora Box application, both laptop and the server management, create new project, and add video assets into the media server. Ensure that the video assets are on different layers and that the layers are not hidden**
+3) Afterwards, you can open the Pandora Box application, both laptop and the server management, create new project, and add video assets into the media server. Ensure that the video assets are on different layers and that the layers are not hidden
 
-4) **In order to mesh the video output to fit the screen output, you would need to right click on the folder, rename it for easy recognition, and mesh it to fit the screen that you are projecting the video onto.**
+4) In order to mesh the video output to fit the screen output, you would need to right click on the folder, rename it for easy recognition, and mesh it to fit the screen that you are projecting the video onto.
 
 ---
-### Props used for interaction
+## Interactivity
 
-1) **The props below is for the audience to use to interact when they have to select different options to progress the storyline**
+### Station 1
+1) This is the set up for station 1:
 
-2) **The pickaxe is used to proceed the storyline(the right answer).**
+![Alt text](Interacting/photo_2023-06-07_02-14-01.jpg)
 
-3) **The other 2 options are the wrong answers where the video will proceed to play other scenerios until the right answers are chosen.**
+We have a button and a Rotary potentiometer. The button is used to start the station, while the Rotary potentiometer is to reset the station as well as a backup for if the button fails.
 
-![Alt text](Interactimg/IMG20230606154514.jpg)
+#### Side View
+![Alt text](Interacting/photo_2023-06-07_02-13-41.jpg)
+
+For the button and Rotary potentiometer to work, we used a Phiget Interface 8/8/8 kit to power, transmit and receive protocols from PB. 
+
+![Alt text](Interacting/photo_2023-06-07_02-13-46.jpg)
+
+#### Shadow Puppetry Element
+This station has a shadow puppetery element. This shadow puppetery is achieved by attaching a model to a servo motor.
+
+![Alt text](Interacting/photo_2023-06-07_02-14-31.jpg)
+
+This servo motor is timed on PB using WD for it to move into position and move away at the right moment while the video is running.
+
+**Video of servo motor in action:**
+
+
+
+**Video of how servo motor affects video:**
+
+
+The servo motor is being driven by a **PhidgetAdvancedServo 8-Motor** which is a servo controller.
+
+![Alt text](Interacting/photo_2023-06-07_02-13-51.jpg)
+
+
+#### Station 2
+
+This is the set up for station 2:
+
+![Alt text](Interacting/photo_2023-06-07_02-13-57.jpg)
+
+For this station's interactivity, we used RFID, buttons and rotary potentiometer. 
+
+#### Side View
+
+![Alt text](Interacting/photo_2023-06-07_02-14-23.jpg)
+
+For station 2, we used RFID tags to let users pick their choices for the game. 
+
+![Alt text](Interacting/photo_2023-06-07_02-14-49.jpg)
+
+
+For users to select their choice, they would have to use these RFID disks and tap it on the RFID reader. This would jump the video to  play the option which users have selected. 
+
+![Alt text](Interacting/photo_2023-06-07_02-14-45.jpg)
+
+To help with the identification of the disk, we made cut outs of the options given to the users and stuck the RFID disks to to back of the cut outs. 
+
+#### Front
+![Alt text](Interacting/photo_2023-06-07_02-14-40.jpg)
+
+#### Back
+![Alt text](Interacting/photo_2023-06-07_02-14-42.jpg)
+
+
+Out of the three options, only one of them is correct [the middle option (pick)]. When users select the wrong option, the video shown to them will be a fail screen. Users would have to then press the white button in order to restart and go back to the point where they are presented with the options again.
+
+After choosing the right answer, the video will progress the story and give users context of the next station before they have to move on the the 3rd station.
+
+![Alt text](Interacting/white button)
+
+The Rotary potentiometer for this station  resets the station as well as act as a backup for if the button fails to work.
+
+![Alt text](Interacting/Rotary potentiometer)
+
+
 
 * The button below is used for audience intraction, to start the sequence of the video
 
-![Alt text](Interactimg/IMG20230606160140.jpg)
+![Alt text](Interacting/IMG20230606160140.jpg)
+The props below is for the audience to use to interact when they have to select different options to progress the storyline
 
+2) The pickaxe is used to proceed the storyline(the right answer).
+
+3) The other 2 options are the wrong answers where the video will proceed to play other scenerios until the right answers are chosen.
 ---
 ## Testing Phase
 ---
