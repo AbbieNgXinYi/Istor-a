@@ -252,15 +252,6 @@ The Rotary potentiometer for this station  resets the station as well as act as 
 ![Alt text](Interacting/Rotary potentiometer)
 
 
-
-* The button below is used for audience intraction, to start the sequence of the video
-
-![Alt text](Interacting/IMG20230606160140.jpg)
-The props below is for the audience to use to interact when they have to select different options to progress the storyline
-
-2) The pickaxe is used to proceed the storyline(the right answer).
-
-3) The other 2 options are the wrong answers where the video will proceed to play other scenerios until the right answers are chosen.
 ---
 ## Testing Phase
 ---
