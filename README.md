@@ -287,7 +287,7 @@ To help with the identification of the disk, we made cut outs of the options giv
 ![Alt text](Interacting/photo_2023-06-07_02-14-42.jpg)
 
 
-Out of the three options, only one of them is correct *[the middle option **(pick)**]*. When users select the wrong option, the video shown to them will be a fail screen.
+Out of the three options, only one of them is correct *[the middle option **(pick)**]*. When users select the wrong option, the video shown to them will be a fail screen. Users would have to then press the white button in order to restart and go back to the point where they are presented with the options again.
 
 After choosing the right answer, the video will progress the story and give users context of the next station before they have to move on the the 3rd station.
 
