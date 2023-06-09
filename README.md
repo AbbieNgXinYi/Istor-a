@@ -6,22 +6,23 @@
 
 <br>
 
-**Station 1:**
+### Station 1
+
 ![Alt text](henrystdsb/station1.jpg)
-
 <br>
 
-**Station 2:**
+### Station 2
+
 ![Alt text](henrystdsb/station2.jpg)
-
 <br>
 
-**Station 3:**
+### Station 3
+
 ![Alt text](henrystdsb/station3.jpg)
 <br>
 
+### Station 4
 
-**Station 4:** 
 ![Alt text](henrystdsb/station4.jpg)
 
 ---
