@@ -111,14 +111,14 @@
 
 3) The laptop is connected to the amplifier's input 1 and 2 using a 3.5mm audio cable to terminal block.
 
+4) Switch on the power button of the Crown CT875 Amplifier. 
+Wait for about a few minutes until the "signal" and the "ready" light lit up (in green).
+<br> 
 
-Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until 
-the "signal" and the "ready" light lit up (in green)
-<br>
-
-4) Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
 ![Alt text](315Images/photo_6053084928981186284_y.jpg)
 ![Alt text](315Images/photo_6053084928981186285_y.jpg)
+
+<br>
 
 5) Turn the Input Attenuation knok to 0 dB.
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
