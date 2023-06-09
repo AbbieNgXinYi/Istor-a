@@ -3,24 +3,25 @@
 ## Content (For storyboard):
 * Storyboard Images :  
 * The Great Diamond heist/Stealing the Diamond
-Station 1 :
+
+<br>
+
+**Station 1:**
 ![Alt text](henrystdsb/station1.jpg)
 
 <br>
 
-Station 2:
+**Station 2:**
 ![Alt text](henrystdsb/station2.jpg)
 
 <br>
 
-Station 3:
+**Station 3:**
 ![Alt text](henrystdsb/station3.jpg)
 <br>
 
 
-<br>
-
-Station 4 : 
+**Station 4:** 
 ![Alt text](henrystdsb/station4.jpg)
 
 ---
@@ -75,27 +76,53 @@ Station 4 :
 ## Installation
 ### Video System
 
-1) In our setup, we are using two laptops. 1 laptop per 2 stations. They are powered using the power adapter.
+1)Equipment needed:
+  * 2 Laptops
+  * 4 Projectors
+  * 2 Media Server
+  * 2 Dongle (Christie Pandora Box License)
 
-2) From 1 of our laptops, we connect via LAN cable to the Media Server.
+2) In our setup, there will be 1 laptop, 1 media server and 1 Dongle for every 2 stations. 
+   There will be 1 projector for every 1 station.
 
-3) In order to use **Christie Pandora Box** (A projection mapping software), we require a licence for both the media server and the laptop.
+3) Each laptop is connected to the media server via LAN. Each projector is connected to the media server via HDMI.
+ 
+4) In our setup, we have used a pair of HDMI extender due to the location of where the media server and one of the projector is placed. If the location of your equipment is not far from each other, there is not a need for a pair of HDMI extender.
 
-4) From the Media Server, we had to use HDMI Extender **( Both TX and RX )** to one of the projector (1st station) via HDMI to LAN cable. Repeat the same step for the second projector (2nd station).
+5) We are using a software called **Christie Pandora Box**(projection mapping software) to project out our content. 
+   To use it, you will need to accquire a dongle that has their license to operate the software. 
+
+6) The dongle is plugged into one of the USB-A ports in the media server.
+  
+7) After stations 1 and 2 are completed, repeat the same steps for stations 3 and 4.
 
 ---
 
 
 ### Audio System
-1) In  our setup, we will be using 4 passive speakers, 1 for each station. 
-2) All 4 of the passive speakers will be connected to an ampliflier using speaker cables on channel 1 & 2 of the output.
-3) the laptop will be connected to the amplifier's input using 3.5mm audio cable to terminal block.
+1)Equipment needed:
+  * 4 speakers
+  * 2 amplifiers
 
-Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
+1) In our setup, we will be using 4 passive speakers, 1 for each station. And 2 amplifiers, 1 for every 2 stations. 
+
+2) Each speaker is connected to one channel on the amplifier.
+
+3) The laptop is connected to the amplifier's input 1 and 2 using a 3.5mm audio cable to terminal block.
+
+
+Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until 
+the "signal" and the "ready" light lit up (in green)
+<br>
+
 ![Alt text](315Images/photo_6053084928981186284_y.jpg)
 ![Alt text](315Images/photo_6053084928981186285_y.jpg)
 
+<br>
+
 Turn the Input Attenuation to 0 dB
+<br>
+
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
 
 
@@ -103,7 +130,8 @@ Turn the Input Attenuation to 0 dB
 ### Lighting System
 1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
 
-2) Ensure that there is power to power on the DMX Driver if not the light **(LED Strips)** would not be turned on. *[Light is mainly used to tell audience where the 1st station is till the end]*
+2) Ensure that there is power to power on the DMX Driver if not the light **(LED Strips)** would not be turned on. 
+   *[Light is mainly used to tell audience where the 1st station is till the end]*
 
 ---
 ### Control System
@@ -112,13 +140,15 @@ Turn the Input Attenuation to 0 dB
   The interface we are using is the phidget interface 8/8/8.**
 
 ##### Station 1
-1) The sensors we have in station 1 are:
-    - 1 Rotary potentiometer
-    - 1 Button
-    - 1 Phidget Advance servo 8-Motor
-    - 1 RC servo motor
 
-2) The Phidget interface and Phidget Advance servo 8-Motor are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the interface, servo motor and laptop are place.
+1) The sensors we have in station 1 are:
+    * 1 Rotary potentiometer
+    * 1 Button
+    * 1 Phidget Advance servo 8-Motor
+    * 1 RC servo motor
+
+2) The Phidget interface and Phidget Advance servo 8-Motor are connected to the laptop via USB-B to USB-A cable. 
+   We are using a usb extension in our setup due to the location of where the interface, servo motor and laptop are place.
 
 3) The phidget interface consists of 7 digital and analog inputs.
 
@@ -139,11 +169,12 @@ Turn the Input Attenuation to 0 dB
 
 
 ##### Station 2
+
 1) The sensors we have in station 2 are:
-    - 1 Phidget RIFD 
-    - 3 Phidget RFID discs
-    - 1 Button
-    - 1 Rotary potentiometer
+    * 1 Phidget RIFD 
+    * 3 Phidget RFID discs
+    * 1 Button
+    * 1 Rotary potentiometer
 
 2) The Phidget interface and the Phidget RFID are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID and laptop are placed.
 
@@ -162,20 +193,34 @@ Turn the Input Attenuation to 0 dB
 
 9) Program Files can be found under **WD Files** in this GitHub Repository
 
-
 ---
+
 ## Operational Phase:
 ### Christie Pandora Box
 
-1) After downloading the Christie Pandora Box and Christie Pandora Server Management, you would need to buy the licence in order to run the pandora box
+1) To use Christie pandora box, you would need to download both the Christie pandora box and PB management application. You would also need to obtain a license to use the software. 
 
-2) After having both the licence and the pandora box, open up the pandora server management, in the server management, you need to open the media server *(Direct connection from laptop to the media server with licence)*.
+2) If all requirements have been fulfilled, you may procced to plug in the dongle that contains the license to use the application into either the laptop if running on local, or a media server if u have one.
 
-3) Afterwards, you can open the Pandora Box application, both laptop and the server management, create new project, and add video assets into the media server. Ensure that the video assets are on different layers and that the layers are not hidden
+3) For the Pandora Box application, simply create a new project to start off. Subsequently, you may either use the assets given by Christie in their own **Christie folder** in **Windows(C:)**, or add your own content by adding into the **Christie folder**.
 
-4) In order to mesh the video output to fit the screen output, you would need to right click on the folder, rename it for easy recognition, and mesh it to fit the screen that you are projecting the video onto.
+4) To use display the content, drag the content to a layer. To preview your content, **right click on local or desktop**, and click on **toggle preview**. 
+
+5) As this software is a projection software, we can also add something called **editable mesh**, to help us size our content depending on our display area. Right click on your project folder and click on **Add Editable Mesh**. You may rename the mesh to your liking.
+
+6) As we are using a phidget control system, we will be adding cues to our video timeline.
+
+7) To add a cue, go to the time you wish to add a cue, right click, and click on **Add Cue Here**.
+
+8) There are different functions in cue, **Play, Pause, Stop, Jump and Wait**:
+    * **Play** function is a play button
+    * **Pause** function pauses the video at that the current cue time
+    * **Stop** function stops the entire sequence/timeline from playing
+    * **Jump** function jumps the cue/time that u have set to jump to
+    * **Wait** function delays the video depending on the wait time set
 
 ---
+
 ## Interactivity
 
 ### Station 1
@@ -200,10 +245,11 @@ This station has a shadow puppetery element. This shadow puppetery is achieved b
 This servo motor is timed on PB using WD for it to move into position and move away at the right moment while the video is running.
 
 **Video of servo motor in action:**
+*[Video can be found in the Interacting Folder - Station_1_servo_moving]*
 
 
-
-**Video of how servo motor affects video:**
+**Video of how servo motor affects video:** 
+*[Video can be found in the Interacting Folder - Station_1_servo_effect]*
 
 
 The servo motor is being driven by a **PhidgetAdvancedServo 8-Motor** which is a servo controller.
@@ -241,15 +287,15 @@ To help with the identification of the disk, we made cut outs of the options giv
 ![Alt text](Interacting/photo_2023-06-07_02-14-42.jpg)
 
 
-Out of the three options, only one of them is correct [the middle option (pick)]. When users select the wrong option, the video shown to them will be a fail screen. Users would have to then press the white button in order to restart and go back to the point where they are presented with the options again.
+Out of the three options, only one of them is correct *[the middle option **(pick)**]*. When users select the wrong option, the video shown to them will be a fail screen.
 
 After choosing the right answer, the video will progress the story and give users context of the next station before they have to move on the the 3rd station.
 
-![Alt text](Interacting/photo_2023-06-07_02-13-57.jpg)
+![Alt text](Interacting/whiteBTN.png)
 
-The Rotary potentiometer for this station  resets the station as well as act as a backup for if the button fails to work.
+The Rotary potentiometer for this station resets the station as well as act as a backup for if the button fails to work.
 
-![Alt text](Interacting/Rotary potentiometer)
+![Alt text](Interacting/ST2RS.png)
 
 
 ---
