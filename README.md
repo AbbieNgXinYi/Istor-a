@@ -115,14 +115,11 @@ Switch on the power button of the Crown CT875 Amplifier. Wait for about a few mi
 the "signal" and the "ready" light lit up (in green)
 <br>
 
+4) Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
 ![Alt text](315Images/photo_6053084928981186284_y.jpg)
 ![Alt text](315Images/photo_6053084928981186285_y.jpg)
 
-<br>
-
-Turn the Input Attenuation to 0 dB
-<br>
-
+5) Turn the Input Attenuation knok to 0 dB.
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
 
 
@@ -191,7 +188,9 @@ Turn the Input Attenuation to 0 dB
 
 8) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
 
-9) Program Files can be found under **WD Files** in this GitHub Repository
+9) To use Widget Designer, you will need to download the application if not downloaded.
+
+9) Program Files that has been used for out project can be found under **WD Files** in this GitHub Repository.
 
 ---
 
@@ -287,7 +286,7 @@ To help with the identification of the disk, we made cut outs of the options giv
 ![Alt text](Interacting/photo_2023-06-07_02-14-42.jpg)
 
 
-Out of the three options, only one of them is correct *[the middle option **(pick)**]*. When users select the wrong option, the video shown to them will be a fail screen. Users would have to then press the white button in order to restart and go back to the point where they are presented with the options again.
+Out of the three options, only one of them is correct *[the middle option **(pick)**]*. When users select the wrong option, the video shown to them will be a fail screen. 
 
 After choosing the right answer, the video will progress the story and give users context of the next station before they have to move on the the 3rd station.
 
