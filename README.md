@@ -91,11 +91,11 @@ Station 4 :
 2) All 4 of the passive speakers will be connected to an ampliflier using speaker cables on channel 1 & 2 of the output.
 3) the laptop will be connected to the amplifier's input using 3.5mm audio cable to terminal block.
 
-Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
+4) Switch on the power button of the Crown CT875 Amplifier. Wait for about a few minutes until the "signal" and the "ready" light lit up (in green)
 ![Alt text](315Images/photo_6053084928981186284_y.jpg)
 ![Alt text](315Images/photo_6053084928981186285_y.jpg)
 
-Turn the Input Attenuation to 0 dB
+5) Turn the Input Attenuation knok to 0 dB.
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
 
 
