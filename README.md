@@ -245,7 +245,7 @@ Out of the three options, only one of them is correct [the middle option (pick)]
 
 After choosing the right answer, the video will progress the story and give users context of the next station before they have to move on the the 3rd station.
 
-![Alt text](Interacting/white button)
+![Alt text](Interacting/photo_2023-06-07_02-13-57.jpg)
 
 The Rotary potentiometer for this station  resets the station as well as act as a backup for if the button fails to work.
 
