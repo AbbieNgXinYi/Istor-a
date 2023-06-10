@@ -1,9 +1,6 @@
 # Istor-a
 
-## Content (For storyboard):
-* Storyboard Images :  
-* The Great Diamond heist/Stealing the Diamond
-
+## Storyboard
 <br>
 
 ### Station 1
@@ -24,6 +21,21 @@
 ### Station 4
 
 ![Alt text](henrystdsb/station4.jpg)
+
+<br>
+<br>
+
+## Gameplay
+
+![Alt text](henrystdsb/henrystd.jpg)
+### Stealing the Diamond
+1) You are playing as the main character(Henry Stickmin). After the events of Escaping the Prison, you are resting at home. 
+
+2) You tune in to the television where you see the mayor annoucing the grand opening of the new museum. Within the new exhibits sits a priceless diamond.
+
+3) Knowing the value of the diamond, you sought to steal the diamond to pay off his late rent of his house.
+
+4) You will be given several options to choose from to aid your character to successfully steal the diamond.
 
 ---
 # Setup Progress
@@ -134,8 +146,11 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 ---
 ### Control System
 #### Phidget Control System
+
 **In this setup, we will are using 2 Phidget interfaces, 1 Phidget RFID and 1 Phidget Advance servo 8-Motor. 
   The interface we are using is the phidget interface 8/8/8.**
+
+* Note: We have used USB Extenders and HUB due to where the different equipment are placed and insufficent USB-A ports
 
 ##### Station 1
 
@@ -196,6 +211,17 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 ---
 
 ## Operational Phase:
+### PB Management
+1) Download PB management application. Note that you would need to obtain a license to use the software. 
+
+2) Wait for the Server Box to say online before clicking the box.
+
+3) After clicking on the box, you would be directed to an interface called the **PB Menu** with different applications.
+
+4) In PB Menu, click on **Pandora Box**.
+
+5) You would be shown a client interface. In that page, click on **Full Screen**.
+
 ### Christie Pandora Box
 
 1) To use Christie pandora box, you would need to download both the Christie pandora box and PB management application. You would also need to obtain a license to use the software. 
@@ -299,19 +325,40 @@ The Rotary potentiometer for this station resets the station as well as act as a
 
 
 ---
-## Testing Phase
----
 
-![Alt text](henrystdsb/henrystd.jpg)
-### Stealing the Diamond
-1) You are playing as the main character(Henry Stickmin). After the events of Escaping the Prison, you are resting at home. 
+## Troubleshooting
 
-2) You tune in to the television where you see the mayor annoucing the grand opening of the new museum. Within the new exhibits sits a priceless diamond.
+### Installation:
+* Check that there is power running for all equipment that requires power.
+* Make sure that all cables are plugged in properly.
+* If HDMI Extenders or USB Extenders are used, make sure that the **Link** is lighted to the supposed colour.
+* For the audio speakers, make sure that both inputs from the amplifier have GND.
 
-3) Knowing the value of the diamond, you sought to steal the diamond to pay off his late rent of his house.
+### Operational:
 
-4) You will be given several options to choose from to aid your character to successfully steal the diamond.
+### PB Management 
+* If you press **X** on the client interface and when you press Pandora Box and it says it is open when you have closed it:
+    1) Find **Taskbar** and switch it on
+    2) Now, you should be able to see the taskbar in your PB Menu page
+    3) Find the Pandora Box tab and click on it to get back the Pandora Box client interface
 
----
-### Troubleshooting
+### Christie Pandora Box
+* Make sure that dongle is plugged in either in the server or laptop
+* If the projector has been switched on and off, and content is not displayed:
+  1) Save your file first
+  2) Close **Christie Pandora Box** and in PB management, click on **disconnect**
+  3) After you have disconnected, you may either:
+    - Close the whole PB Management
+    <br> OR
+    - Right Click on the box which says Server[Number depends on how many servers you have]
+    - Find **System** and in that tab, click on **Reboot**
+
+
+### Widget Designer
+* If open up Phidget Control panel with Widget designer and sensor not working:
+    1) Save your File first
+    2) Close both applications
+    3) Now open up Widget Designer 
+    4) Open your saved file 
+
 ---
