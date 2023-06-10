@@ -100,14 +100,21 @@
 
 3) Each laptop is connected to the media server via LAN. Each projector is connected to the media server via HDMI.
  
-4) In our setup, we have used a pair of HDMI extender due to the location of where the media server and one of the projector is placed. If the location of your equipment is not far from each other, there is not a need for a pair of HDMI extender.
+4) In our setup, we have used a pair of HDMI extender due to the location of where the media server and one of the projector is placed. If the location of your equipment is not far from each other, there is no need to use HDMI extenders.
 
-5) We are using a software called **Christie Pandora Box**(projection mapping software) to project out our content. 
+5) If you too want to ensure proper and stable cable management in your setup, you may consider using HDMI extenders.
+    * Help reduce hardware issues that relate to the cabling like:
+        1) lose connection 
+        2) Cable being pulled out
+    * Extenders run on LAN cables for extension
+        1) LAN cables have a locking mechanism while HDMI cables do not. This ensures that aren't lose or pulled out easily.
+
+6) We are using a software called **Christie Pandora Box**(projection mapping software) to project out our content. 
    To use it, you will need to accquire a dongle that has their license to operate the software. 
 
-6) The dongle is plugged into one of the USB-A ports in the media server.
+7) The dongle is plugged into one of the USB-A ports in the media server.
   
-7) After stations 1 and 2 are completed, repeat the same steps for stations 3 and 4.
+8) After stations 1 and 2 are completed, repeat the same steps for stations 3 and 4.
 
 ---
 
@@ -141,12 +148,15 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
 
 2) Ensure that there is power to power on the DMX Driver if not the light **(LED Strips)** would not be turned on. 
-   *[Light is mainly used to tell audience where the 1st station is till the end]*
 
----
+3) Our lighting system will be used to give users a more immersive and responsive experience by responding to their choices.
+    *[e.g If they fail, the lights will turn red.]*
+
+--- 
 ### Control System
 #### Phidget Control System
 
+#### Stations 1 & 2
 **In this setup, we will are using 2 Phidget interfaces, 1 Phidget RFID and 1 Phidget Advance servo 8-Motor. 
   The interface we are using is the phidget interface 8/8/8.**
 
@@ -163,7 +173,7 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 2) The Phidget interface and Phidget Advance servo 8-Motor are connected to the laptop via USB-B to USB-A cable. 
    We are using a usb extension in our setup due to the location of where the interface, servo motor and laptop are place.
 
-3) The phidget interface consists of 7 digital and analog inputs.
+3) The phidget interface consists of 8 digital and analog inputs.
 
 4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
 
@@ -178,7 +188,9 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 5) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
 
-6) Program Files can be found under **WD Files** in this GitHub Repository
+6) To use Widget Designer, you will need to download the application if not downloaded.
+
+7) Program Files can be found under **WD Files** in this GitHub Repository
 
 
 ##### Station 2
@@ -191,7 +203,7 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 2) The Phidget interface and the Phidget RFID are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID and laptop are placed.
 
-3) The phidget interface consists of 7 digital and analog inputs.
+3) The phidget interface consists of 78 digital and analog inputs.
 
 4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
 
@@ -210,7 +222,8 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 ---
 
-## Operational Phase:
+## Operational and Testing
+
 ### PB Management
 1) Download PB management application. Note that you would need to obtain a license to use the software. 
 
@@ -230,15 +243,21 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 3) For the Pandora Box application, simply create a new project to start off. Subsequently, you may either use the assets given by Christie in their own **Christie folder** in **Windows(C:)**, or add your own content by adding into the **Christie folder**.
 
-4) To use display the content, drag the content to a layer. To preview your content, **right click on local or desktop**, and click on **toggle preview**. 
+4) To add your own content, go to file explorer, click on **Windows(C:)**. Then find and click on **Christie**. 
 
-5) As this software is a projection software, we can also add something called **editable mesh**, to help us size our content depending on our display area. Right click on your project folder and click on **Add Editable Mesh**. You may rename the mesh to your liking.
+5) In the **Christie folder**, click on **content**. Then drag the content you will be using into the **content folder**.
 
-6) As we are using a phidget control system, we will be adding cues to our video timeline.
+6) To project out your content, drag the content to a layer in the timeline in pandora box. 
 
-7) To add a cue, go to the time you wish to add a cue, right click, and click on **Add Cue Here**.
+7) To preview your content in pandora box, **right click on local or desktop**, find and click on **toggle preview**. 
 
-8) There are different functions in cue, **Play, Pause, Stop, Jump and Wait**:
+8) As this software is a projection software, we can also add something called **editable mesh**, to help us size and fit our content depending on our display area. Right click on your project folder and click on **Add Editable Mesh**. You may rename the mesh to your liking.
+
+9) As we are using a phidget control system, we will be adding cues to our video timeline.
+
+10) To add a cue, go to the time you wish to add a cue, right click, and click on **Add Cue Here**.
+
+11) There are different functions in cue, **Play, Pause, Stop, Jump and Wait**:
     * **Play** function is a play button
     * **Pause** function pauses the video at that the current cue time
     * **Stop** function stops the entire sequence/timeline from playing
@@ -345,14 +364,21 @@ The Rotary potentiometer for this station resets the station as well as act as a
 #### Christie Pandora Box
 * Make sure that dongle is plugged in either in the server or laptop
 * If the projector has been switched on and off, and content is not displayed:
-  1) Save your file first
-  2) Close **Christie Pandora Box** and in PB management, click on **disconnect**
-  3) After you have disconnected, you may either:
+   1) Save your file first
+   2) Close **Christie Pandora Box** and in PB management, click on **disconnect**
+   3) After you have disconnected, you may either:
       - Close the whole PB Management
       <br> OR
       - Right Click on the box which says Server[Number depends on how many servers you have]
       - Find **System** and in that tab, click on **Reboot**
 
+* If you are unable to preview your content in pandora box:
+   1) Make sure that you have clicked on **toggle preview**
+   2) In pandora box find and click on **all cameras** 
+
+* If you can't find your mesh:
+    1) In pandora box find and click on **all cameras** 
+    2) Check which **layer output** you are on 
 
 #### Widget Designer
 * If open up Phidget Control panel with Widget designer and sensor not working:
