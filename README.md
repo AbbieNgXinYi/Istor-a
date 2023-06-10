@@ -352,6 +352,7 @@ The Rotary potentiometer for this station resets the station as well as act as a
 * Check that there is power running for all equipment that requires power.
 * Make sure that all cables are plugged in properly.
 * If HDMI Extenders or USB Extenders are used, make sure that the **Link** is lighted to the supposed colour.
+* Do ensure that the cable connection for HDMI Extenders or USB Extenders are not lose if the equipment are being used.
 * For the audio speakers, make sure that both inputs from the amplifier have GND.
 
 ### Operational:
