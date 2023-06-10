@@ -47,7 +47,8 @@
 
 ---
 ## System Diagram for Audio
-![Alt text](SystemDiagram/Audio/Audio.jpg)
+![image](https://github.com/AbbieNgXinYi/Istor-a/assets/132433711/f335db0d-0bf1-4a88-9c59-f3256b6a39e4)
+
 
 
 ---
