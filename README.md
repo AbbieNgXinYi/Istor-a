@@ -336,25 +336,25 @@ The Rotary potentiometer for this station resets the station as well as act as a
 
 ### Operational:
 
-### PB Management 
+#### PB Management 
 * If you press **X** on the client interface and when you press Pandora Box and it says it is open when you have closed it:
     1) Find **Taskbar** and switch it on
     2) Now, you should be able to see the taskbar in your PB Menu page
     3) Find the Pandora Box tab and click on it to get back the Pandora Box client interface
 
-### Christie Pandora Box
+#### Christie Pandora Box
 * Make sure that dongle is plugged in either in the server or laptop
 * If the projector has been switched on and off, and content is not displayed:
   1) Save your file first
   2) Close **Christie Pandora Box** and in PB management, click on **disconnect**
   3) After you have disconnected, you may either:
-    - Close the whole PB Management
-    <br> OR
-    - Right Click on the box which says Server[Number depends on how many servers you have]
-    - Find **System** and in that tab, click on **Reboot**
+      - Close the whole PB Management
+      <br> OR
+      - Right Click on the box which says Server[Number depends on how many servers you have]
+      - Find **System** and in that tab, click on **Reboot**
 
 
-### Widget Designer
+#### Widget Designer
 * If open up Phidget Control panel with Widget designer and sensor not working:
     1) Save your File first
     2) Close both applications
