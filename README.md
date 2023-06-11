@@ -198,13 +198,13 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 1) The sensors we have in station 2 are:
     * 1 Phidget RIFD 
-    * 3 Phidget RFID discs
+    * 3 Phidget RFID Tags
     * 1 Button
     * 1 Rotary potentiometer
 
 2) The Phidget interface and the Phidget RFID are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID and laptop are placed.
 
-3) The phidget interface consists of 78 digital and analog inputs.
+3) The phidget interface consists of 8 digital and analog inputs.
 
 4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
 
@@ -228,13 +228,20 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 ### PB Management
 1) Download PB management application. Note that you would need to obtain a license to use the software. 
 
-2) Wait for the Server Box to say online before clicking the box.
+2) In the PB management workspace, wait for the server icon to turn **blue** and its state to say **online** 
+   before clicking the icon.
 
-3) After clicking on the box, you would be directed to an interface called the **PB Menu** with different applications.
+   ![Alt text](VidImg/icon.png)
+
+3) After clicking on the icon, you would be directed to an interface called the **PB Menu** with different applications.
 
 4) In PB Menu, click on **Pandora Box**.
 
+   ![Alt text](VidImg/icon2.png)
+
 5) You would be shown a client interface. In that page, click on **Full Screen**.
+
+   ![Alt text](VidImg/icon3.png)
 
 ### Christie Pandora Box
 
