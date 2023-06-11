@@ -99,6 +99,8 @@
 2) In our setup, there will be 1 laptop, 1 media server and 1 Dongle for every 2 stations. 
    There will be 1 projector for every 1 station.
 
+   ![Alt text](315Images/MS1.jpg)
+
 3) Each laptop is connected to the media server via LAN. Each projector is connected to the media server via HDMI.
  
 4) In our setup, we have used a pair of HDMI extender due to the location of where the media server and one of the projector is placed. If the location of your equipment is not far from each other, there is no need to use HDMI extenders.
