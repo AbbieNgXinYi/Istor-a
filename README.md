@@ -363,8 +363,11 @@ The Rotary potentiometer for this station resets the station as well as act as a
     2) Now, you should be able to see the taskbar in your PB Menu page
     3) Find the Pandora Box tab and click on it to get back the Pandora Box client interface
 
+* Ensure that the IP address of the laptop is the same as the PB management too.
+
 #### Christie Pandora Box
 * Make sure that dongle is plugged in either in the server or laptop
+
 * If the projector has been switched on and off, and content is not displayed:
    1) Save your file first
    2) Close **Christie Pandora Box** and in PB management, click on **disconnect**
