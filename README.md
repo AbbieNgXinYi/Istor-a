@@ -129,7 +129,11 @@
 
 2) Each speaker is connected to one channel on the amplifier.
 
+![Alt text](315Images/ACH1.jpg)
+
 3) The laptop is connected to the amplifier's input 1 and 2 using a 3.5mm audio cable to terminal block.
+
+![Alt text](315Images/AIN1.jpg)
 
 4) Switch on the power button of the Crown CT875 Amplifier. 
 Wait for about a few minutes until the "signal" and the "ready" light lit up (in green).
@@ -146,11 +150,19 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 ---
 ### Lighting System
-1) From our setup, we connect to the Light DMX Driver via HDMI to DMX cable. 
 
-2) Ensure that there is power to power on the DMX Driver if not the light **(LED Strips)** would not be turned on. 
+1) In our setup, we will be using a software called **grandMA3** to program our lights.
 
-3) Our lighting system will be used to give users a more immersive and responsive experience by responding to their choices.
+2) To use the software, we need a **grandMA3 Node**. 
+
+3) This node is connected to the laptop via a usb to dmx adapter and dmx cable.
+
+4) In our setup, we are using LED strips. To connect the LED strips the the node, we have used a Light DMX driver.
+
+5) This Light DMX Driver is connected to the node via HDMI to DMX cable. 
+    The other end is connected to the LED strips via terminal block.
+
+7) Our lighting system will be used to give users a more immersive and responsive experience by responding to their choices.
     *[e.g If they fail, the lights will turn red.]*
 
 --- 
@@ -215,11 +227,15 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 7) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
   through our program.
 
-8) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
+8) The Phidget RFID has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
 
-9) To use Widget Designer, you will need to download the application if not downloaded.
+9) The RFID scanner will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
 
-9) Program Files that has been used for out project can be found under **WD Files** in this GitHub Repository.
+10) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
+
+11) To use Widget Designer, you will need to download the application if not downloaded.
+
+12) Program Files that has been used for out project can be found under **WD Files** in this GitHub Repository.
 
 ---
 
@@ -361,6 +377,7 @@ The Rotary potentiometer for this station resets the station as well as act as a
 * If HDMI Extenders or USB Extenders are used, make sure that the **Link** is lighted to the supposed colour.
 * Do ensure that the cable connection for HDMI Extenders or USB Extenders are not lose if the equipment are being used.
 * For the audio speakers, make sure that both inputs from the amplifier have GND.
+* Ensure that there is power to power on the DMX Driver if not the light **(LED Strips)** would not be turned on. 
 
 ### Operational:
 
