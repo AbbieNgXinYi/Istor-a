@@ -116,8 +116,11 @@
    To use it, you will need to accquire a dongle that has their license to operate the software. 
 
 7) The dongle is plugged into one of the USB-A ports in the media server.
+    ![Alt text](315Images/VD1.jpg)
   
 8) After stations 1 and 2 are completed, repeat the same steps for stations 3 and 4.
+
+
 
 ---
 
