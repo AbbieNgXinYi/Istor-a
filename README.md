@@ -130,9 +130,13 @@
   * 4 speakers
   * 1 ampliflier
 
-1) In our setup, we will be using 4 passive speakers, 1 for each station and all 4 of them will be connected to an ampliflier model CT8150 as that ampliflier has 4 different channels. 
+1) In our setup, we will be using 4 passive speakers, 1 for each station and all 4 of them will be connected to an ampliflier crown CT875 as this ampliflier has 4 different channels.
 
-2) Each speaker is connected to one channel on the amplifier.
+2) Passive speakers are used instead of active speakers as they dont have to be plugged in which will reduce the amount of cables used by half.
+
+3) Mono sound is used as it only uses 1 channel compared to stereo which uses 2 which will increase the cost as another ampliflier would be needed.
+
+4) Each speaker is connected to one channel on the amplifier.
 
 ![Alt text](315Images/ACH1.jpg)
 
