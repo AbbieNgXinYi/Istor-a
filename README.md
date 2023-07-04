@@ -128,9 +128,9 @@
 ### Audio System
 1)Equipment needed:
   * 4 speakers
-  * 2 amplifiers
+  * 1 ampliflier
 
-1) In our setup, we will be using 4 passive speakers, 1 for each station. And 2 amplifiers, 1 for every 2 stations. 
+1) In our setup, we will be using 4 passive speakers, 1 for each station and all 4 of them will be connected to an ampliflier model CT8150 as that ampliflier has 4 different channels. 
 
 2) Each speaker is connected to one channel on the amplifier.
 
