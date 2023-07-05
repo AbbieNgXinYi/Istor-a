@@ -184,22 +184,10 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 1) In our setup, we will be using a software called **grandMA3** to program our lights.
 
-2) To use the software, we need a **grandMA3 Node**. 
+2) To use the software, we need a **grandMA3 onPC command wing XT**. 
 
    ![Alt text](LightImg/NodeImg.jpg)
 
-3) This node is connected to the laptop via a usb to dmx adapter and dmx cable.
-
-4) In our setup, we are using LED strips. To connect the LED strips the the node, we have used a Light DMX driver.
-
-5) This Light DMX Driver is connected to the node via HDMI to DMX cable. 
-    The other end is connected to the LED strips via terminal block.
-    ![Alt text](LightImg/DMXdriver.png)
-
-6) Do note that the driver and node do require power to function
-
-7) Our lighting system will be used to give users a more immersive and responsive experience by responding to their choices.
-    *[e.g If they fail, the lights will turn red.]*
 
 --- 
 ### Control System
