@@ -186,7 +186,8 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 2) To use the software, we need a **grandMA3 onPC command wing XT**. 
 
-   ![Alt text](LightImg/NodeImg.jpg)
+   ![Alt text](315images/2023-07-05-17-34-38-909.jpg)
+   ![Alt text](315images/2023-07-05-17-34-52-370.jpg)
 
 
 --- 
