@@ -182,16 +182,19 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 ---
 ### Lighting System
 
-1) In our setup, we will be using a software called **grandMA3** to program our lights.
+1) In our setup, we will be using the lighting console called the **grandMA3 onPC command wing XT** to program our lights. This lighting console has a built-in MA motherboard, with GrandMA3 onPC software that was already pre-installed inside the console, and the console was running using Windows 10 IoT OS. This requires to connect the touchscreen monitor so that users can be able to view the grandMA3 onPC software and programme or control it on the console.
 
-2) To use the software, we need a **grandMA3 onPC command wing XT**. 
-
-   ![Alt text](315images/2023-07-05-17-34-38-909.jpg)
+   ![Alt text](315images/2023-07-05-18-23-55-385.jpg)
 
    ![Alt text](315images/2023-07-05-17-34-52-370.jpg)
-   GrandMA3 command wing XT
 
-3) The power button and the DMX Output is loacted at the back of the console. The lighting fixture is connected to the DMX port output.
+2) The monitor is connected via the Display Port.
+(For touchscreen monitors, there is a USB port located behind the monitor which is delicated for touchscreen feature only, can be connected via the **3.0** USB port, to activate the touchscreen feature on the monitor).
+Users can also connect the keyboard and a mouse via the **2.0** USB port.
+
+   ![Alt text](315images/2023-07-05-17-44-07-082.jpg)
+
+3) The power button and the DMX Output is loacted at the back of the console. The lighting fixture is connected via the DMX port output.
    ![Alt text](315images/2023-07-05-17-41-05-063.jpg)
 
 
@@ -271,6 +274,26 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 ---
 
 ## Operational and Testing
+
+### grandMA3 onPC
+1) Download and install the latest grandMA3 onPC application.
+
+2) On the left side panel, click on the Setting gear icon or press the **Menu** button on the grandMA3 console. A menu option will show up on the screen. Select the **Patch** button.
+
+3) Inside the Patch window, click on **New Fixture**, followed by **Insert New Fixture**. **(If you are doing a new show, please skip to step 4)**
+
+4) Select the **Library** tab and you will see a list of both the lighting Manufacturer names (under Manufacturer tab) and the type of the lighting fixture(under Fixture tab). Select the manufacturer and the lighting fixture that you are using, or you can type it down the name of the manufacturer and the fixture type in the search box. 
+**eg. Clay Paky Alpha Wash 300**
+
+   select the most suitable modes and click select.
+
+5) Inside the **Insert New Fixture** window, rename the lighting fixture that is suitable for you to view **(eg. Foor Lights)**. Click on **Patch** tab at the left panel, and type in the suitable universe number followed by the channel number. **eg. The Alpha Wash 300 channel number is set at 121. The cable is connected to universe 1 (which means it is connected to DMX A on the Lighting console).**
+
+    **NOTE: By default, DMX A is universe 1, DMX B is universe 2, and DMX C is universe 3**
+
+6) Select **Please** button and close the patch window (you will see the keep changes message pop up, click save and exit).
+
+7) On the right side, select fixture and select the lighting fixture in the Fixture:Absolute window. At the bottom right, select **Dimmer** tab and on the console use the first rotaty wheel to adjust the brightness of the lighting fixture. **(You can also select other tabs such as position, colours, or beam, and adjust it by using the rotaty wheel on the console)**
 
 ### PB Management
 1) Download PB management application. Note that you would need to obtain a license to use the software. 
