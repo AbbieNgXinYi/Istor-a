@@ -187,7 +187,13 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 2) To use the software, we need a **grandMA3 onPC command wing XT**. 
 
    ![Alt text](315images/2023-07-05-17-34-38-909.jpg)
+
    ![Alt text](315images/2023-07-05-17-34-52-370.jpg)
+   GrandMA3 command wing XT
+
+3) The power button and the DMX Output is loacted at the back of the console. The lighting fixture is connected to the DMX port output.
+   ![Alt text](315images/2023-07-05-17-41-05-063.jpg)
+
 
 
 --- 
