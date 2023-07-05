@@ -1,4 +1,10 @@
 # Istor-a
+### Project Introduction
+Title : The Great Diamond Heist
+
+Welcome to the mesmerising world of "henry stickman" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as henry stickman, the main character conquering formidable challenges to steal The Great Diamond.
+<br>
+
 
 ## Storyboard
 <br>
