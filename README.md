@@ -1,6 +1,7 @@
 # Istor-a
 ### Project Introduction
 Title : The Great Diamond Heist
+![Alt text](henrystdsb/henrystd.jpg)
 
 Welcome to the mesmerising world of "henry stickman" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as henry stickman, the main character conquering formidable challenges to steal The Great Diamond.
 <br>
@@ -12,21 +13,36 @@ Welcome to the mesmerising world of "henry stickman" an immersive and exhilarati
 ### Station 1
 
 ![Alt text](henrystdsb/station1.jpg)
+* From the image above is our station 1 storyboard. It depicts the mayor grand opening of the museum, while showcasing the **priceless diamond**. It then pans out to show the main character, Henry, who plans to steal the **priceless diamond** to pay off his late rent of the house.
+
 <br>
 
 ### Station 2
 
 ![Alt text](henrystdsb/station2.jpg)
+* From the image above is our storyboard of station 2. It shows **6 different options** for you to choose from. There  are **2 different scenerios (A and B)** from here. 
+
+* From **scene A**, there are **3 options** to select from and *1 of them* is ***CORRECT***. If **WRONG**, the selection menu will *replay* until you picked the right choice. When the right option is selected, the next scene will be where you had successfully entered the museum, and is planning on how to bypass  2 guards, with **3 additional options + 1 timer**. The selection interface will *replay* until the right option is selected. Once the right option is selected, the scene will end off where you successfully bypass the guards and is now planning on how to steal the diamond.
+
+* From **scene B**, there are **3 options** to select and *1 of them* is ***CORRECT***. The selection menu will *replay* when **Wrong option** is picked. If the right option is selected,  the next scene will bring you to the roof of the museum where you are given another **4 options** to bypass the guard. When you picked the wrong option, the selection interface will *replay* until you picked the right choice. Once you selected the right option, the scene will end off where you successfully bypass the guard and entered the museum from the rooftop, and is now planning on how to steal the diamond.
+
 <br>
 
 ### Station 3
 
 ![Alt text](henrystdsb/station3.jpg)
+* Following up from Station 2 of **scene A**, you are given **4 options**. The selection interface will replay if you selected the **wrong option**. Once the right option is picked, the scene will end off where the Chaos Agency is notified of the Chaos happening in the museum.
+
+* For **scene B**, you are given **3 options** to get closer to the diamond. If ***Wrong option*** is picked, the selection interface will *replay* until the right option is selected. When the right option is selected, the next scene will be how you plan to steal the diamond by giving you **2 additional options** to select from. The selection interface will *replay* until the right option is selected. Once you select the right option, the scene will end off you stealing the diamond before trying to escape the museum with it.
+
 <br>
 
 ### Station 4
 
 ![Alt text](henrystdsb/station4.jpg)
+* For **scene A**, the scene starts off with the Chaos Agency being notofied of the Chaos happening in the museum, and is given **4 options** to select from. The selection interface will *replay* until the right option is selected. Once the right option is selected, the next scene will be where you are escaping from the Chaos that the Chaos Agency had dispatched to, without the diamond. However, at the end of the scene, the diamond had sucessfully flew from the museum and landed next to you. *Task finished Successfully?*
+
+* For **scene B**, the scene starts off where you had to bypass another 2 guards and with the diamond in tow, you are given **3 options**. If fail, the selection interface will *replay* until the right option is selected. Once the right option is picked, the next scene will be you outside the museum with the diamond , but still have to bypass 1 more guard with a gun. You are given **additional 4 options** to pick from. If fail, the selection interface will *replay* until the right option is picked. If the right option is picked, the scene will end off where you had successfully stole the diamond from the museum undetected.
 
 <br>
 <br>
