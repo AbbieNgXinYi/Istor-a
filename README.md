@@ -3,7 +3,7 @@
 Title : The Great Diamond Heist
 ![Alt text](henrystdsb/henrystd.jpg)
 
-Welcome to the mesmerising world of "henry stickman" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as henry stickman, the main character conquering formidable challenges to steal The Great Diamond.
+Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as henry stickmin, the main character conquering formidable challenges to steal The Great Diamond.
 <br>
 
 
