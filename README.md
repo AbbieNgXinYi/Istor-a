@@ -149,24 +149,28 @@ Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarati
 
 ### Audio System
 1)Equipment needed:
-  * 4 speakers
-  * 1 ampliflier
+  * 4 speakers (JBL Control 23)
+  * 1 ampliflier (Crown CT875)
+  * 1 dante interface (AXI 44AT)
+  * 1 laptop
 
-1) In our setup, we will be using 4 passive speakers, 1 for each station and all 4 of them will be connected to an ampliflier crown CT875 as this ampliflier has 4 different channels.
+1) In our setup, we will be using 4 passive speakers, 1 ampliflier, 1 dante interface and 1 laptop. 1 speaker is connected for each station and all 4 of them will be connected to an ampliflier crown CT875 as this ampliflier has 4 different channels.
 
-2) Passive speakers are used instead of active speakers as they dont have to be plugged in which will reduce the amount of cables used by half.
+2) Passive speakers are used instead of active speakers as they dont have to be plugged in which will reduce the amount of cables used by half, keeping the place tidy.
 
 3) Mono sound is used as it only uses 1 channel compared to stereo which uses 2 which will increase the cost as another ampliflier would be needed.
+ 
+4) The dante interface (AXI 44AT) is used to route the different audio for different stations from pandora box to the speakers.
 
-4) Each speaker is connected to one channel on the amplifier.
+5) The laptop is needed for pandora box where the audio is coming out from. The
+ laptop is connected to dante interface using a lan cable.
 
-![Alt text](315Images/ACH1.jpg)
+6) The dante interface is connected to the amplifier using terminal block
 
-3) The laptop is connected to the amplifier's input 1 and 2 using a 3.5mm audio cable to terminal block.
-
+7) All 4 speakers are connected to the ampliflier using speaker cable, each speaker is connected to 1 channel on the amplifier
 ![Alt text](315Images/AIN1.jpg)
 
-4) Switch on the power button of the Crown CT875 Amplifier. 
+8) Switch on the power button of the Crown CT875 Amplifier. 
 Wait for about a few minutes until the "signal" and the "ready" light lit up (in green).
 <br> 
 
@@ -175,7 +179,7 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 <br>
 
-5) Turn the Input Attenuation knok to 0 dB.
+9) Turn the Input Attenuation knok to 0 dB.
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
 
 
@@ -201,6 +205,11 @@ Users can also connect the keyboard and a mouse via the **2.0** USB port.
 
 --- 
 ### Control System
+We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to control the 4 projectors.
+1) The cp3 processor, laptop and all 4 projectors are connected to the network switcher using lan cables.
+2) Crestron VT-Pro-e is used to design and create the buttons.
+3) Each buttons were given different digital joins digits.
+4) 2) SIMPL windows is used to program all the 4 projectors to 'ON' or 'OFF'.
 #### Phidget Control System
 
 #### Stations 1 & 2
