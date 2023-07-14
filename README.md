@@ -96,11 +96,11 @@ Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarati
 
 ### Station 3
 
-![Alt text](/StoryboardPics/scenario%20A%20st3/scenario%20A%20st3_1.jpg)
+![Alt text](/StoryboardPics/IMG_20230714_222806.jpg)
 
 Following up from Station 2 of **scene A**, you are given **4 options**. The selection interface will replay if you selected the **wrong option**. Once the right option is picked, the scene will end off where the Chaos Agency is notified of the Chaos happening in the museum.
 
-![Alt text](/StoryboardPics/scenario%20B%20st3/scenario%20B%20st3_1.jpg)
+![Alt text](/StoryboardPics/IMG_20230714_222821.jpg)
 
 * For **scene B**, you are given **3 options** to get closer to the diamond. If ***Wrong option*** is picked, the selection interface will *replay* until the right option is selected. When the right option is selected, the next scene will be how you plan to steal the diamond by giving you **2 additional options** to select from. The selection interface will *replay* until the right option is selected. Once you select the right option, the scene will end off you stealing the diamond before trying to escape the museum with it.
 
