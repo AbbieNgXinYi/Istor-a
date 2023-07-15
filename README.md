@@ -84,7 +84,7 @@ Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarati
 
 * At the start of station 2, it shows you **6 different options** for you to choose from. There  are **2 different scenerios (A and B)** from here. 
 
-![Alt text](henrystdsb/station2.jpg)
+![Alt text](/StoryboardPics/IMG_20230715_144256.jpg)
 
 * From **scene A**, there are **3 options** to select from and *1 of them* is ***CORRECT***. If **WRONG**, the retry scene will *replay* until you picked the right choice. When the right option is selected, the next scene will be where you had successfully entered the museum, and is planning on how to bypass  2 guards, with **3 additional options + 1 timer**. The retry scene will *replay* until the right option is selected. Once the right option is selected, the scene will end off where you successfully bypass 2 guards and is now planning on how to bypass the 3rd guard, while you are getting closer to the diamond.
 
@@ -96,7 +96,7 @@ Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarati
 
 ### Station 3
 
-![Alt text]()
+![Alt text](/StoryboardPics/IMG_20230715_144245.jpg)
 
 Following up from Station 2 of **scene A**, you start off with bypassing 1 guard thats guarding the door. You are given **2 options**. If fail, retry scene will play. If not, you will proceed on infront of the door, towards to the diamond. You are now given additional **4 options**. The retry scene will replay if you selected the **wrong option**. Once the right option is picked, the scene will end off where the Chaos Agency is notified of the Chaos happening in the museum.
 
@@ -125,9 +125,9 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 - For Every stations has a table next to the projector, with all the interactivities available for users to interactive with.
 
-- Press the **Big Buton* to start the game
+- Press the *Big Button* to start the game
 
-- Different choices gives different results. ( 2 different scenarios). Do play through them to maximise the immersive experience we have install for you!
+- Different choices give you different results. ( 2 different scenarios). Do play through them to maximise the immersive experience we have install for you!
 
 - Enjoy and have fun!
 
