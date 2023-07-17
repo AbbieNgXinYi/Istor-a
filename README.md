@@ -325,6 +325,8 @@ Users can also connect the keyboard and a mouse via the **2.0** USB port.
 
 ![Alt text](315images/2023-07-05-17-41-05-063.jpg)
 
+
+4) The console is connected to the pandora box via LAN which enables the pandora box to communicate with the grandMA3 console by sending command using OSC so that the lighting console can automatically excute the sequences or the cues that was stored inside the console. The OSC command can be set by using the pandora box widget designer.
 --- 
 ### Control System
 We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to control the 4 projectors.
