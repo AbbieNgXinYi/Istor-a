@@ -302,6 +302,7 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 <br>
 
 9) Turn the Input Attenuation knok to 0 dB.
+
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
 
 
@@ -310,20 +311,19 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 1) In our setup, we will be using the lighting console called the **grandMA3 onPC command wing XT** to program our lights. This lighting console has a built-in MA motherboard, with GrandMA3 onPC software that was already pre-installed inside the console, and the console was running using Windows 10 IoT OS. This requires to connect the touchscreen monitor so that users can be able to view the grandMA3 onPC software and programme or control it on the console.
 
-   ![Alt text](315images/2023-07-05-18-23-55-385.jpg)
+![Alt text](315images/2023-07-05-18-23-55-385.jpg)
 
-   ![Alt text](315images/2023-07-05-17-34-52-370.jpg)
+![Alt text](315images/2023-07-05-17-34-52-370.jpg)
 
 2) The monitor is connected via the Display Port.
 (For touchscreen monitors, there is a USB port located behind the monitor which is delicated for touchscreen feature only, can be connected via the **3.0** USB port, to activate the touchscreen feature on the monitor).
 Users can also connect the keyboard and a mouse via the **2.0** USB port.
 
-   ![Alt text](315images/2023-07-05-17-44-07-082.jpg)
+![Alt text](315images/2023-07-05-17-44-07-082.jpg)
 
 3) The power button and the DMX Output is loacted at the back of the console. The lighting fixture is connected via the DMX port output.
-   ![Alt text](315images/2023-07-05-17-41-05-063.jpg)
 
-
+![Alt text](315images/2023-07-05-17-41-05-063.jpg)
 
 --- 
 ### Control System
