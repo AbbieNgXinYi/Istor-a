@@ -1,10 +1,11 @@
 # Istor-a
 ### Project Introduction
 Title : The Great Diamond Heist
+
 ![Alt text](henrystdsb/henrystd.jpg)
 
-Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as henry stickmin, the main character conquering formidable challenges to steal The Great Diamond.
-<br>
+* Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as henry stickmin, the main character conquering formidable challenges to steal The Great Diamond.
+
 
 # Objective:
  - We aim to take advantage of this opportunity to educate learners further about Audio Visual (AV) Technology and how we employ it to present our exhibits, creating a more engaging experience. We want to achieve our aims by using shadows to take a fresh twist on shadow puppeting. 
@@ -15,6 +16,8 @@ Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarati
 ---
 
 ## Table of Content:
+
+- **Team Member's Infomation**
 
 - **Storyboards ( All Stations + Descriptions )**
    - Station 1
@@ -65,10 +68,57 @@ Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarati
       - Widget Designer
       - Network
 
-- **Team Member's Infomation**
+---
 
+## Team's Member Infomation
+
+
+### Abbie Ng (Team Leader)
+ * Widget Programming - Control
+ 
+ * Christie Pandora Box - Meshing + Cue
+
+* Audio System 
+
+* Content Props (Interaction)
+
+### Sean (Assistant Leader)
+
+ * Widget Programming - Control
+
+ * Video System Setup
+
+ * Content Props (Interaction)
+
+ * Audio System Setup
+
+### William (Member)
+ * Lighting - grandMA3 programming
+
+ * Video System Setup
+
+
+### Kwok Xinyi (Member)
+ * Content creation
+
+ * Booth designing - Instructions for each station
+
+ * Christie Pandora Box - Meshing + Cue 
+
+### Jerome (Member)
+ * Audio system
+
+ * Networking Setup - Router , Projector, Laptop IP Addresses
+
+ * Audio System Setup
+
+ * Content creation
+
+
+---
 
 ## Storyboard
+
 <br>
 
 ### Station 1
@@ -559,7 +609,5 @@ The Rotary potentiometer for this station resets the station as well as act as a
     4) laptop 2 ip address 192.168.180.7
     5) media server ip address 192.168.180.69
     6) media server ip address 192.168.180.88
-
-## Team's Member Infomation
-
+    
 ---
