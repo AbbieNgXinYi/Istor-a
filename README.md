@@ -305,6 +305,14 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
 
+10) To change the ip address of the dante network, plug mini usb into laptop from dante interface
+   
+11) launch DSP configurator
+12) Choose the appropriate choice and click on live
+13) click  on usb and select the appropriate device, to synchronise click pull data.
+14) go to tools, under device settings, dante device click on static ip
+15) change ip address to appropriate ip address and apply
+16) Reboot Dante if necessary
 
 ---
 ### Lighting System
