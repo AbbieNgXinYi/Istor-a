@@ -616,11 +616,14 @@ The Rotary potentiometer for this station resets the station as well as act as a
 
 ---
 #### Network
-    1) Netgear router is used and set to wireless connection.
+1) Netgear router is used and set to wireless connection.
     2) ip address is of router is changed to 192.168.180.5
     3) laptop 1 ip address 192.168.180.9
     4) laptop 2 ip address 192.168.180.7
     5) media server ip address 192.168.180.69
     6) media server ip address 192.168.180.88
+2) Static range is 192.168.180.2 to 192.168.180.99
+3) Dynamic range is 192.168.180.100 to 192.168.180.254
+4) All the equipments ip addresses falls under the static range to prevent interference from other 3rd party devices that connects to the same network.
     
 ---
