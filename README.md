@@ -278,21 +278,24 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 1) In our setup, we will be using 4 passive speakers, 1 ampliflier, 1 dante interface and 1 laptop. 1 speaker is connected for each station and all 4 of them will be connected to an ampliflier crown CT875 as this ampliflier has 4 different channels.
 
-2) Passive speakers are used instead of active speakers as they dont have to be plugged in which will reduce the amount of cables used by half, keeping the place tidy.
+2) The audio assets are wav. files which are generated from the mp4 video assets using Pandora box's Media Encoder.
 
-3) Mono sound is used as it only uses 1 channel compared to stereo which uses 2 which will increase the cost as another ampliflier would be needed.
- 
-4) The dante interface (AXI 44AT) is used to route the different audio for different stations from pandora box to the speakers.
+3) The sampling rate is set at 48kHz which is the same sampling rate that is set on the Dante Network.
 
-5) The laptop is needed for pandora box where the audio is coming out from. The
- laptop is connected to dante interface using a lan cable.
+4) Audio assets were placed on the Pandora Box's timeline
 
-6) The dante interface is connected to the amplifier using terminal block
+5) Pandoras Box audio output set to PB dante.
+  
+6) Dante Virtual Soundcard used to output network audio from the laptop
 
-7) All 4 speakers are connected to the ampliflier using speaker cable, each speaker is connected to 1 channel on the amplifier
+7) Dante Controller is used to route audio.
+
+8) The analog output from Extron Dante will send audio to the 8 channel crown amplifier
+
+9) All 4 speakers are connected to the ampliflier using speaker cable, each speaker is connected to 1 channel on the amplifier
 ![Alt text](315Images/AIN1.jpg)
 
-8) Switch on the power button of the Crown CT875 Amplifier. 
+10) Switch on the power button of the Crown CT875 Amplifier. 
 Wait for about a few minutes until the "signal" and the "ready" light lit up (in green).
 <br> 
 
