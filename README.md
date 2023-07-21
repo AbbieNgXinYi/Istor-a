@@ -17,7 +17,7 @@ Title : The Great Diamond Heist
 
 ## Table of Content:
 
-- [**Team Member's Infomation**](#Team-Member's-Information)
+- **[Team Member's Infomation](#Team-Member's-Information)**
 
 - **[Storyboards](#Storyboard)(All Stations + Descriptions )**
    - [Station 1](#Station-1)
@@ -25,7 +25,7 @@ Title : The Great Diamond Heist
    - [Station 3](#Station-3)
    - [Station 4](#Station-4)
 
-- [**Gameplay**](#Gameplay)
+- **[Gameplay](#Gameplay)**
 
 - [**Setup Progress**](#Setup-Prograss)
    - System Diagrams
