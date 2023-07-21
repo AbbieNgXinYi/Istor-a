@@ -17,7 +17,7 @@ Title : The Great Diamond Heist
 
 ## Table of Content:
 
-- **[Team Member's Infomation](#Team-Member's-Information)**
+- **[Team Members Infomation](#Team-Members-Information)**
 
 - **[Storyboards](#Storyboard)(All Stations + Descriptions )**
    - [Station 1](#Station-1)
@@ -27,8 +27,8 @@ Title : The Great Diamond Heist
 
 - **[Gameplay](#Gameplay)**
 
-- [**Setup Progress**](#Setup-Prograss)
-   - System Diagrams
+- **[Setup Progress](#Setup-Progress)**
+   - **System Diagrams**
       * [Video](#System-Diagram-for-Video)
       * [Audio](#System-Diagram-for-Audio)
       * [Lighting](#System-Diagram-for-Lighting)
@@ -36,20 +36,20 @@ Title : The Great Diamond Heist
          + [Projector](#Projector-Control)
          + [Phidget *(All Stations)*](#Phidget-Control)
 
-- [**Floor Plan**](#Floor-Plan)
+- **[Floor Plan](#Floor-Plan)**
    - Overall top view
    - Details top view per station
    - Details side view per station
    - Detailed of the equipments (placed at both top corner of the room)
 
-- [**Installation**](#Installation)
+- **[Installation](#Installation)**
    - [Video](#Video-System)
    - [Audio](#Audio-System)
    - [Lighting](#Lighting-System)
    - [Control](#Control-System)
    - [Phidget-Control-System](#Phidget-Control-System)
 
-- [**Operational and Testing**](#Operational-and-Testing)
+- **[Operational and Testing](#Operational-and-Testing)**
    - [GrandMA3 on PC](#GrandMA3-on-PC)
    - [PB management](#PB-management)
    - [Christie Pandora Box](#Christie-Pandora-Box)
@@ -60,7 +60,7 @@ Title : The Great Diamond Heist
       - [Station 2](#Station-2)
          - Side View
 
-- [**Troubleshooting**](#Troubleshooting)
+- **[Troubleshooting](#Troubleshooting)**
    - [Installation](#Installation)
    - [Operational](#Operational)
       - [PB Management](#PB-Management)
