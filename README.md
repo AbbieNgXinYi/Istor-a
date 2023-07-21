@@ -556,6 +556,7 @@ Introduction QR code:
 ![Alt text](Interacting/MVP%20documentation%20Images/intro.jpg)
 
 Introduction infographic:
+
 ![Alt text](Interacting/MVP%20documentation%20Images/Infographic.gif)
 
 ---
@@ -576,6 +577,7 @@ QR code:
 ![Alt text](Interacting/MVP%20documentation%20Images/Station1.jpg)
 
 Infographic:
+
 ![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
 
 ---
