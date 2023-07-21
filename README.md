@@ -337,7 +337,12 @@ From the lighting console (grandMA3 onPC Command Wing XT)
 ![Alt text](315Images/2023-07-06-19-10-13-767.jpg)
 From the touch screen monitor
 
-3) The power button and the DMX Output is loacted at the back of the console. The lighting fixture is connected via the DMX port output.
+3) The power button and the DMX Output is loacted at the back of the console. The lighting fixture is connected via the DMX port output. We also use the Lite-Puter DP-81 DMX Spliter to connect multiple lighting fixtures if there are more lighting fixtures is needed to be use.
+
+![Alt text](315Images/20230721_171542.jpg)
+
+![Alt text](315Images/20230721_171616.jpg)
+
 
 
 
