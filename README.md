@@ -175,11 +175,11 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ### Stealing the Diamond
 
-- For Every stations has a table next to the projector, with all the interactivities available for users to interactive with.
+- Every stations has a table next to the projector, with all the interactivities available for users to interactive with.
 
 - Press the *Big Button* to start the game
 
-- Different choices give you different results. ( 2 different scenarios). Do play through them to maximise the immersive experience we have install for you!
+- Different choices give you different results. (2 different scenarios). Do play through them to maximise the immersive experience we have install for you!
 
 - Enjoy and have fun!
 
@@ -494,9 +494,42 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 ## Interactivity
 
+### Introduction
+To start, users can scan a QR code which will bring them to an infographic. The infographic will let users know more about our project as well as instructions on how to play. 
+
+Introduction QR code at station:
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%201%20QR%20Code.jpg)
+
+Introduction QR code:
+![Alt text](Interacting/MVP%20documentation%20Images/Infographic.png)
+
+Introduction infographic:
+![Alt text](Interacting/MVP%20documentation%20Images/Infographic.gif)
+
+---
+
 ### Station 1
 1) This is the set up for station 1:
 
+![Alt text](Interacting/MVP%20documentation%20Images/Station%201%20full%20setup.jpg)
+
+---
+
+These are the QR codes and infographic for Station 1.
+
+QR code:
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station1QR.jpg)
+
+![Alt text](Interacting/MVP%20documentation%20Images/St1.png)
+
+Infographic:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
+
+---
+
+Interactivity for Station 1:
 ![Alt text](Interacting/photo_2023-06-07_02-14-01.jpg)
 
 We have a button and a Rotary potentiometer. The button is used to start the station, while the Rotary potentiometer is to reset the station as well as a backup for if the button fails.
@@ -507,6 +540,8 @@ We have a button and a Rotary potentiometer. The button is used to start the sta
 For the button and Rotary potentiometer to work, we used a Phiget Interface 8/8/8 kit to power, transmit and receive protocols from PB. 
 
 ![Alt text](Interacting/photo_2023-06-07_02-13-46.jpg)
+
+---
 
 #### Shadow Puppetry Element
 This station has a shadow puppetery element. This shadow puppetery is achieved by attaching a model to a servo motor.
@@ -527,38 +562,88 @@ The servo motor is being driven by a **PhidgetAdvancedServo 8-Motor** which is a
 
 ![Alt text](Interacting/photo_2023-06-07_02-13-51.jpg)
 
+---
 
 #### Station 2
 
 This is the set up for station 2:
 
-![Alt text](Interacting/photo_2023-06-07_02-13-57.jpg)
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20full%20setup.jpg)
 
-For this station's interactivity, we used RFID, buttons and rotary potentiometer. 
+---
+
+These are the QR codes and infographic for Station 2.
+
+QR code:
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station2QR.jpg)
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202.png)
+
+Infographic:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
+
+---
+
+Interactivity for Station 2:
+
+
+Options:
+
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20interactivity%20pt1.jpg)
+
+
+
+Button and Scanner:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20interactivity%20pt2.jpg)
+
+
+
+For this station's interactivity, we used RFID, buttons and rotary potentiometer.
 
 #### Side View
 
 ![Alt text](Interacting/photo_2023-06-07_02-14-23.jpg)
 
-For station 2, we used RFID tags to let users pick their choices for the game. 
+For station 2, we used RFID tags to let users pick their choices for the game. Throughout our stations, we used card RFID tags, keychain RFID tags as well as disk RFID tags
 
-![Alt text](Interacting/photo_2023-06-07_02-14-49.jpg)
+![Alt text](Interacting/MVP%20documentation%20Images/RFID%20Tags.jpg)
 
 
-For users to select their choice, they would have to use these RFID disks and tap it on the RFID reader. This would jump the video to  play the option which users have selected. 
+We put cardboard cutouts of the ingame options onto the RFID tags which help to label and hide the tags
 
-![Alt text](Interacting/photo_2023-06-07_02-14-45.jpg)
-
-To help with the identification of the disk, we made cut outs of the options given to the users and stuck the RFID disks to to back of the cut outs. 
 
 #### Front
 ![Alt text](Interacting/photo_2023-06-07_02-14-40.jpg)
+
 
 #### Back
 ![Alt text](Interacting/photo_2023-06-07_02-14-42.jpg)
 
 
-Out of the three options, only one of them is correct *[the middle option **(pick)**]*. When users select the wrong option, the video shown to them will be a fail screen. 
+From Stations 2 to 4, users will be able to pick options that will lead to two different paths. One path is labelled "A" while the other is labelled "B". Users should then follow the labelling and numberings and choose the options in order.
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20interactivity%20plus%20label.jpg)
+
+Users can pick any option first. After picking users are advised to keep to one path as deferring would result in a break in the flow of the story. 
+
+Station 2 First Choice:
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20set1%20options.jpg)
+
+Station 2 Second Choice:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20interactivity%20pt3.jpg)
+
+
+
+For users to select their choice, they would have to use these RFID tags and tap it on the RFID reader. This would jump the video to  play the option which users have selected. 
+
+![Alt text](Interacting/photo_2023-06-07_02-14-45.jpg)
+
+
+
+For every group of options, only one of them is correct. When users select the wrong option, the video shown to them will be a fail screen. 
 
 After choosing the right answer, the video will progress the story and give users context of the next station before they have to move on the the 3rd station.
 
@@ -570,6 +655,59 @@ The Rotary potentiometer for this station resets the station as well as act as a
 
 
 ---
+
+### Station 3
+
+This is the setup for station 3:
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20full%20setup.jpg)
+
+---
+
+These are the QR codes and infographic for Station 3.
+
+QR code:
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station3QR.jpg)
+
+![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20st3.png)
+
+Infographic:
+![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20st3.jpg)
+
+---
+
+Interactivity for Station 3:
+
+
+
+---
+
+
+### Station 4
+This is the setup for 4:
+
+---
+
+These are the QR codes and infographic for Station 3.
+
+QR code:
+
+![Alt text](Interacting/MVP%20documentation%20Images/Sttion3QR.jpg)
+
+![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20t3.png)
+
+Infographic:
+![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20s3.jpg)
+
+---
+
+Interactivity for Station 4:
+
+
+
+---
+
 
 ## Troubleshooting
 
