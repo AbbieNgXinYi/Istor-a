@@ -36,7 +36,7 @@ Title : The Great Diamond Heist
          + [Projector](#Projector-Control)
          + [Phidget *(All Stations)*](#Phidget-Control)
 
-- [**Floor Plan**](#Floor-Plan-:)
+- [**Floor Plan**](#Floor-Plan)
    - Overall top view
    - Details top view per station
    - Details side view per station
