@@ -543,14 +543,17 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 ## Interactivity
 
 ### Introduction
-To start, users can scan a QR code which will bring them to an infographic. The infographic will let users know more about our project as well as instructions on how to play. 
+To start, users can scan a QR code that we generated for each station which will bring them to an infographic. The infographic will let users know more about our project as well as instructions on how to play. Every Station has a QR code located close to it for users to scan and it will bring them to the corresponding infographics.
+
+---
+### Introduction
 
 Introduction QR code at station:
 
 ![Alt text](Interacting/MVP%20documentation%20Images/Station%201%20QR%20Code.jpg)
 
 Introduction QR code:
-![Alt text](Interacting/MVP%20documentation%20Images/Infographic.png)
+![Alt text](Interacting/MVP%20documentation%20Images/intro.jpg)
 
 Introduction infographic:
 ![Alt text](Interacting/MVP%20documentation%20Images/Infographic.gif)
@@ -570,7 +573,7 @@ QR code:
 
 ![Alt text](Interacting/MVP%20documentation%20Images/Station1QR.jpg)
 
-![Alt text](Interacting/MVP%20documentation%20Images/St1.png)
+![Alt text](Interacting/MVP%20documentation%20Images/Station1.jpg)
 
 Infographic:
 ![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
@@ -626,7 +629,7 @@ QR code:
 
 ![Alt text](Interacting/MVP%20documentation%20Images/Station2QR.jpg)
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202.png)
+![Alt text](Interacting/MVP%20documentation%20Images/Station2.jpg)
 
 Infographic:
 ![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
@@ -718,7 +721,7 @@ QR code:
 
 ![Alt text](Interacting/MVP%20documentation%20Images/Station3QR.jpg)
 
-![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20st3.png)
+![Alt text](Interacting/MVP%20documentation%20Images/Station3.jpg)
 
 Infographic:
 ![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20st3.jpg)
@@ -727,32 +730,83 @@ Infographic:
 
 Interactivity for Station 3:
 
+These are the interactivity components that are used for Station 3
 
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity.jpg)
+
+
+Station 3 First Choice: 
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt1.jpg)
+
+Station 3 Second Choice: 
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt2.jpg)
+
+Station 3 Third Choice:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt3.jpg)
+
+Station 3 Third Choice 1st path :
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt6.jpg)
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt5.jpg)
+
+
+Station 3 Third Choice 2nd path:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt4.jpg)
+
+
+Similarly to Station 2, for users to select their choice, they would have to take the RFID tag that corresponds to an option at their current scenrio and place it on the RFID scanner
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20scanner.jpg)
 
 ---
-
 
 ### Station 4
 This is the setup for 4:
 
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20full%20setup%20w%20WB.jpg)
 ---
 
 These are the QR codes and infographic for Station 3.
 
 QR code:
 
-![Alt text](Interacting/MVP%20documentation%20Images/Sttion3QR.jpg)
+![Alt text](Interacting/MVP%20documentation%20Images/Station4QR.jpg)
 
-![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20t3.png)
+![Alt text](Interacting/MVP%20documentation%20Images/Station4.jpg)
 
 Infographic:
-![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20s3.jpg)
+![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20st4.gif)
 
 ---
 
 Interactivity for Station 4:
 
+Station 4 First Choice:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt1.jpg)
 
+Station 4 Second and Third Choices 1st path:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20options%20pt4.jpg)
+
+Station 4 Second Choice 1st path:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt6.jpg)
+
+Station 4 Third Choice 1st path:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt8.jpg)
+
+Station 4 Second and Third Choices 2nd path:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20options%20pt1.jpg)
+
+Station 4 Second Choice 2nd path:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt3.jpg)
+
+Station 4 Third Choice 2nd path:
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt2.jpg)
+
+
+
+Once again, for users to select their choice, they would have to take the RFID tag that corresponds to an option at their current scenrio and place it on the RFID scanner
+
+![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20Scanner.jpg)
 
 ---
 
