@@ -171,6 +171,8 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ## Gameplay
 
+<br>
+
 ### Stealing the Diamond
 
 - For Every stations has a table next to the projector, with all the interactivities available for users to interactive with.
@@ -183,7 +185,6 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ---
 # Setup Progress
-
 ## System Diagram for Video
 
 ![Alt text](SystemDiagram/Video/Video1.png)
@@ -215,7 +216,10 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ---
 
-## Floor Plan:
+## Floor Plan
+
+<br>
+
 ### Overall Top View
 ![Alt text](315Images/537.png) 
 
