@@ -376,10 +376,11 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 2) Crestron VT-Pro-e is used to design and create the buttons.
 3) Each buttons were given different digital joins digits.
 4) 2) SIMPL windows is used to program all the 4 projectors to 'ON' or 'OFF'.
+
+
 #### Phidget Control System
 
-#### Stations 1 & 2
-**In this setup, we will are using 2 Phidget interfaces, 1 Phidget RFID and 1 Phidget Advance servo 8-Motor. 
+**In this setup, we will are using 2 Phidget interfaces, 3 Phidget RFID and 1 Phidget Advance servo 8-Motor. 
   The interface we are using is the phidget interface 8/8/8.**
 
 * Note: We have used USB Extenders and HUB due to where the different equipment are placed and insufficent USB-A ports
@@ -419,7 +420,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 1) The sensors we have in station 2 are:
     * 1 Phidget RIFD 
-    * 3 Phidget RFID Tags
+    * Multiple Phidget RFID Tags 
     * 1 Button
     * 1 Rotary potentiometer
 
@@ -445,6 +446,26 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 11) To use Widget Designer, you will need to download the application if not downloaded.
 
 12) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
+
+##### Station 3 & 4
+
+1) The sensors we have in station 3 & 4 are:
+    * 1 Phidget RIFD 
+    * Multiple Phidget RFID Tags
+
+2) The Phidget RFID are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID and laptop are placed.
+
+3) The Phidget RFID is connected to the laptop seperately from the interface.
+
+4) The Phidget RFID has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
+
+5) The RFID reader will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
+
+6) For the interactivity to work, we will be using an application called **Widget Designer** to program the RFID Reader and Tags.
+
+7) To use Widget Designer, you will need to download the application if not downloaded.
+
+8) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
 
 ---
 
