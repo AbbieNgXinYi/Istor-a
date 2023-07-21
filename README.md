@@ -345,7 +345,7 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 1) In our setup, we will be using the lighting console called the **grandMA3 onPC command wing XT** to program our lights. This lighting console has a built-in MA motherboard, with GrandMA3 onPC software that was already pre-installed inside the console, and the console was running using Windows 10 IoT OS. This requires to connect the touchscreen monitor so that users can be able to view the grandMA3 onPC software and programme or control it on the console.
 
 ![Alt text](315Images/20230721_171448.jpg)
-
+![Alt text](315Images/2023-07-05-18-23-55-385.jpg)
 ![Alt text](315Images/2023-07-05-17-34-38-909.jpg)
 
 2) The monitor is connected via the Display Port.
@@ -353,16 +353,20 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 Users can also connect the keyboard and a mouse via the **2.0** USB port.
 
 ![Alt text](315Images/20230721_171639.jpg)
-From the lighting console (grandMA3 onPC Command Wing XT)
+(Behind the grandMA3 onPC with DP port, USB Port 3.0/2.0 and 2 LAN interface)
 
 ![Alt text](315Images/2023-07-06-19-10-13-767.jpg)
-From the touch screen monitor
+(Behind the Touch screen monitor)
 
 3) The power button and the DMX Output is loacted at the back of the console. The lighting fixture is connected via the DMX port output. We also use the Lite-Puter DP-81 DMX Spliter to connect multiple lighting fixtures if there are more lighting fixtures is needed to be use.
+
+![Alt text](315Images/2023-07-05-17-41-05-063.jpg)
+Behind the grandMA3 onPC Command Wing XT
 
 ![Alt text](315Images/20230721_171542.jpg)
 
 ![Alt text](315Images/20230721_171616.jpg)
+Lite-Puter DP-81 DMX Splitter
 
 4) The console is connected to the pandora box via LAN which enables the pandora box to communicate with the grandMA3 console by sending command using OSC so that the lighting console can automatically excute the sequences or the cues that was stored inside the console. The OSC command can be set by using the pandora box widget designer.
 --- 
