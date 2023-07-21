@@ -206,12 +206,7 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 ![Alt text](SystemDiagram/Control/315-e-schematic-c.png)
 
 ### Phidget Control
-
-#### Station 1 & 2
-![Alt text](SystemDiagram/Control/Control2.png)
-
-#### Station 3 & 4
-![Alt text](SystemDiagram/Control/Control3.png)
+![Alt text](SystemDiagram/Control/315-e-schematic-c-phidget.png)
 
 ---
 
