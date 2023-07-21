@@ -20,7 +20,7 @@ Title : The Great Diamond Heist
 - **Team Member's Infomation**
 
 - **Storyboards ( All Stations + Descriptions )**
-   - [link](#Station-1)Station 1
+   - [Station 1](#Station-1)
    - Station 2
    - Station 3
    - Station 4
