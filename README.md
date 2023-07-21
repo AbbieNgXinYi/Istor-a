@@ -82,9 +82,11 @@ Title : The Great Diamond Heist
 
 * Content Props (Interaction)
 
+* Content creation 
+
 ### Sean (Assistant Leader)
 
- * Widget Programming - Control
+ * Christie Pandora Box - Meshing + Cue
 
  * Video System Setup
 
@@ -103,7 +105,7 @@ Title : The Great Diamond Heist
 
  * Booth designing - Instructions for each station
 
- * Christie Pandora Box - Meshing + Cue 
+ * Content Props (Interaction)
 
 ### Jerome (Member)
  * Audio system
@@ -187,21 +189,21 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 # Setup Progress
 ## System Diagram for Video
 
-![Alt text](/SystemDiagram/SchematicV.png)
+![Alt text](/SystemDiagram/Video/SchematicV.png)
 
 ---
 ## System Diagram for Audio
-![Alt text](/SystemDiagram/SchematicA.png)
+![Alt text](/SystemDiagram/Audio/SchematicA.png)
 
 
 ---
 ## System Diagram for Lighting
-![Alt text](SystemDiagram/SchematicL.png)
+![Alt text](SystemDiagram/Lighting/SchematicL.png)
 
 ---
 ## System Diagram for Control
 ### Projector Control
-![Alt text](SystemDiagram/Control/Control1.jpg)
+![Alt text](SystemDiagram/Control/315-e-schematic-c.png)
 
 ### Phidget Control
 
@@ -236,17 +238,18 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 ### Video System
 
 1)Equipment needed:
-  * 2 Laptops
+  * 1 Laptop
   * 4 Projectors
   * 2 Media Server
   * 2 Dongle (Christie Pandora Box License)
+  * 1 Network Switch
 
-2) In our setup, there will be 1 laptop, 1 media server and 1 Dongle for every 2 stations. 
+2) In our setup, there will be 1 laptop, 2 media server and 1 Dongle for each media server. 
    There will be 1 projector for every 1 station.
 
    ![Alt text](315Images/MS1.jpg)
 
-3) Each laptop is connected to the media server via LAN. Each projector is connected to the media server via HDMI.
+3) Both media servers and Laptop are all interconnected to a network switch via LAN. Each projector is connected to the media server via HDMI.
  
 4) In our setup, we have used a pair of HDMI extender due to the location of where the media server and one of the projector is placed. If the location of your equipment is not far from each other, there is no need to use HDMI extenders.
 
@@ -271,32 +274,19 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 
 ### Audio System
-1)Equipment needed:
-  * 4 speakers (JBL Control 23)
-  * 1 ampliflier (Crown CT875)
-  * 1 dante interface (AXI 44AT)
-  * 1 laptop
+* Equipment needed:
+  + 4 speakers (JBL Control 23)
+  + 1 ampliflier (Crown CT875)
+  + 1 dante interface (AXI 44AT)
+  + 1 laptop
+  + 1 Network Switch
 
 1) In our setup, we will be using 4 passive speakers, 1 ampliflier, 1 dante interface and 1 laptop. 1 speaker is connected for each station and all 4 of them will be connected to an ampliflier crown CT875 as this ampliflier has 4 different channels.
 
-2) The audio assets are wav. files which are generated from the mp4 video assets using Pandora box's Media Encoder.
-
-3) The sampling rate is set at 48kHz which is the same sampling rate that is set on the Dante Network.
-
-4) Audio assets were placed on the Pandora Box's timeline
-
-5) Pandoras Box audio output set to PB dante.
-  
-6) Dante Virtual Soundcard used to output network audio from the laptop
-
-7) Dante Controller is used to route audio.
-
-8) The analog output from Extron Dante will send audio to the 8 channel crown amplifier
-
-9) All 4 speakers are connected to the ampliflier using speaker cable, each speaker is connected to 1 channel on the amplifier
+2) All 4 speakers are connected to the ampliflier using speaker cable, each speaker is connected to 1 channel on the amplifier
 ![Alt text](315Images/AIN1.jpg)
 
-10) Switch on the power button of the Crown CT875 Amplifier. 
+3) Switch on the power button of the Crown CT875 Amplifier. 
 Wait for about a few minutes until the "signal" and the "ready" light lit up (in green).
 <br> 
 
@@ -305,18 +295,54 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 
 <br>
 
-9) Turn the Input Attenuation knok to 0 dB.
+4) Turn the Input Attenuation knok to 0 dB.
 
 ![Alt text](315Images/photo_6053084928981186287_y.jpg)
 
-10) To change the ip address of the dante network, plug mini usb into laptop from dante interface
-   
-11) launch DSP configurator
-12) Choose the appropriate choice and click on live
-13) click  on usb and select the appropriate device, to synchronise click pull data.
-14) go to tools, under device settings, dante device click on static ip
-15) change ip address to appropriate ip address and apply
-16) Reboot Dante if necessary
+5) The audio assets are wav. files which are generated from the mp4 video assets using Pandora box's Media Encoder.
+
+6) The sampling rate is set at 48kHz which is the same sampling rate that is set on the Dante Network.
+
+7) Audio assets were placed on the Pandora Box's timeline.
+
+8) We have set the Pandora Box audio output to be configured to PB dante as we will be using a dante interface to route our audio.
+
+9) To use the dante interface, connect it to the laptop. If the laptop LAN port is unavailable, a network switch is required.
+
+10) Next, connect the audio amplifier's 4 inputs use according to this setup to the outputs of the dante interface. For this project, we have connected using LAN cables to carry our audio signal.
+
+11) The analog output from dante interface will send audio to the 8 channel crown amplifier
+  
+12) To route our audio, we required the use of the Dante Virtual Soundcard and Dante Controller.
+
+13) The Dante Virtual Soundcard is used to output network audio from the laptop.
+
+14) The Dante Controller is used to route audio.
+![Alt text](315Images/Audio%20Equipment/photo1689950694%20(1).jpeg)
+
+
+
+* How to configure Dante Interface IP Address - If using own network
+
+1) To change the ip address of the dante network, plug mini usb into laptop from dante interface
+2) launch DSP configurator
+3) Choose the appropriate choice equipment
+![Alt text](315Images/DanteInterConfig/photo1689952206%20(3).jpeg)
+
+4) Click on the live button to start
+![Alt text](315Images/DanteInterConfig/liveBTn.jpeg)
+
+4) click  on usb and select the appropriate device, to synchronise click pull data.
+![Alt text](315Images/DanteInterConfig/USB.jpeg)
+<br>
+
+![Alt text](315Images/DanteInterConfig/photo1689952206%20(1).jpeg)
+
+5) go to tools, under device settings, dante device click on static ip
+![Alt text](315Images/DanteInterConfig/photo1689952206.jpeg)
+
+6) change ip address to appropriate ip address and apply
+7) Reboot Dante if necessary
 
 ---
 ### Lighting System
