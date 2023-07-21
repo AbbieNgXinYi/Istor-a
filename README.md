@@ -17,7 +17,7 @@ Title : The Great Diamond Heist
 
 ## Table of Content:
 
-- **Team Member's Infomation**
+- [**Team Member's Infomation**](#Team-Member's-Information)
 
 - **[Storyboards](#Storyboard)(All Stations + Descriptions )**
    - [Station 1](#Station-1)
@@ -25,48 +25,48 @@ Title : The Great Diamond Heist
    - [Station 3](#Station-3)
    - [Station 4](#Station-4)
 
-- **Gameplay
+- [**Gameplay**](#Gameplay)
 
-- **Setup Progress**
+- [**Setup Progress**](#Setup-Prograss)
    - System Diagrams
-      * Video
-      * Audio
-      * Lighting
-      * Controls
-         + Projector
-         + Phiget *(All Stations)*
+      * [Video](#System-Diagram-for-Video)
+      * [Audio](#System-Diagram-for-Audio)
+      * [Lighting](#System-Diagram-for-Lighting)
+      * [Controls](#System-Diagram-for-Controls)
+         + [Projector](#Projector-Control)
+         + [Phidget *(All Stations)*](#Phidget-Control)
 
-- **Floor Plan**
+- [**Floor Plan**](#Floor-Plan-:)
    - Overall top view
    - Details top view per station
    - Details side view per station
    - Detailed of the equipments (placed at both top corner of the room)
 
-- **Installation**
-   - Video
-   - Audio
-   - Lighting
-   - Control
-      - Phiget Control
+- [**Installation**](#Installation)
+   - [Video](#Video-System)
+   - [Audio](#Audio-System)
+   - [Lighting](#Lighting-System)
+   - [Control](#Control-System)
+   - [Phidget-Control-System](#Phidget-Control-System)
 
-- **Operational and Testing**
-   - GrandMA3 on PC
-   - PB management
-   - Christie Pandora Box
-   - *Interactivity*
-      - Station 1
+- [**Operational and Testing**](#Operational-and-Testing)
+   - [GrandMA3 on PC](#GrandMA3-on-PC)
+   - [PB management](#PB-management)
+   - [Christie Pandora Box](#Christie-Pandora-Box)
+   - [*Interactivity*](#Interactivity)
+      - [Station 1](#Station-1)
          - Side view of station 1
          - Shadow Puppetry Element
-      - Station 2
+      - [Station 2](#Station-2)
          - Side View
 
-- **Troubleshooting**
-   - Installation
-   - Operational
-      - PB Management
-      - Christie Pandora Box
-      - Widget Designer
-      - Network
+- [**Troubleshooting**](#Troubleshooting)
+   - [Installation](#Installation)
+   - [Operational](#Operational)
+      - [PB Management](#PB-Management)
+      - [Christie Pandora Box](#Christie-Pandora-Box)
+      - [Widget Designer](#Widget-Designer)
+      - [Network](#Network)
 
 ---
 
@@ -217,7 +217,7 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ## Floor Plan:
 ### Overall Top View
-![Alt text](315Images/537.png)
+![Alt text](315Images/537.png) 
 
 ### Detailed Top View of 1 station
 ![Alt text](315Images/537%20-%202.png)
