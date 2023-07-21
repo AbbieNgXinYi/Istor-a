@@ -576,6 +576,7 @@ QR code:
 ![Alt text](Interacting/MVP%20documentation%20Images/Station1.jpg)
 
 Infographic:
+
 ![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
 
 ---
