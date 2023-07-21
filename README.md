@@ -413,7 +413,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 6) To use Widget Designer, you will need to download the application if not downloaded.
 
-7) Program Files can be found under **WD Files** in this GitHub Repository
+7) Program Files can be found under **MVP WD Files** in this GitHub Repository
 
 
 ##### Station 2
@@ -445,7 +445,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 11) To use Widget Designer, you will need to download the application if not downloaded.
 
-12) Program Files that has been used for out project can be found under **WD Files** in this GitHub Repository.
+12) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
 
 ---
 
