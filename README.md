@@ -187,19 +187,16 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 # Setup Progress
 ## System Diagram for Video
 
-![Alt text](SystemDiagram/Video/Video1.png)
-![Alt text](SystemDiagram/Video/Video2.png)
+![Alt text](/SystemDiagram/SchematicV.png)
 
 ---
 ## System Diagram for Audio
-![image](https://github.com/AbbieNgXinYi/Istor-a/assets/132433711/f335db0d-0bf1-4a88-9c59-f3256b6a39e4)
-
+![Alt text](/SystemDiagram/SchematicA.png)
 
 
 ---
 ## System Diagram for Lighting
-![Alt text](SystemDiagram/Lighting/Lighting.jpg)
-
+![Alt text](SystemDiagram/SchematicL.png)
 
 ---
 ## System Diagram for Control
