@@ -343,9 +343,6 @@ From the touch screen monitor
 
 ![Alt text](315Images/20230721_171616.jpg)
 
-
-
-
 4) The console is connected to the pandora box via LAN which enables the pandora box to communicate with the grandMA3 console by sending command using OSC so that the lighting console can automatically excute the sequences or the cues that was stored inside the console. The OSC command can be set by using the pandora box widget designer.
 --- 
 ### Control System
