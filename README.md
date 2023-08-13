@@ -1,4 +1,7 @@
 # Istor-a
+
+![Alt text](Interacting/FP%20documentation%20Images/Poster.jpg)
+
 ### Project Introduction
 Title : Stealing The Diamond
 
@@ -425,11 +428,11 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 ##### **Station 1**
 
-1) The sensors we have in station 1 are:
+1) The components we have in station 1 are:
     * 1 Rotary potentiometer
     * 1 Button
     * 1 Phidget Advance servo 8-Motor
-    * 1 RC servo motor
+    * 1 RC servo motor 
 
 2) The Phidget interface and Phidget Advance servo 8-Motor are connected to the laptop via USB-B to USB-A cable. 
    We are using a usb extension in our setup due to the location of where the interface, servo motor and laptop are place.
@@ -440,12 +443,15 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
 
+
+##### **Station 1 Gamebox**
+ ![Alt text](Interacting/FP%20documentation%20Images/Station%201%20Gamebox.jpg)
+
+###### **Gamebox buttons**
 5) The Button is to enable for the video to start
-
- ![Alt text](ControlSystemImage/Buttonstart.jpg)
-
 6) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
   through our program.
+
 
 7) The Phidget Advance servo 8-Motor is connected seperately from the interface.
 
@@ -459,41 +465,45 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 11) Program Files can be found under **MVP WD Files** in this GitHub Repository
 
+---
 
 ##### **Station 2**
 
-1) The sensors we have in station 2 are:
-    * 1 Phidget RIFD 
-    * Multiple Phidget RFID Tags 
+1) The components we have in station 2 are:
+    * 1 Phidget RIFD Scanner
+    * 13 Phidget RFID Tags 
     * 1 Button
     * 1 Rotary potentiometer
 
-2) The Phidget interface and the Phidget RFID are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID and laptop are placed.
+
+##### **Station 2 Gamebox**
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20Gamebox.jpg)
+
+###### **Gamebox RFIDs**
+
+2) The Phidget interface and the Phidget RFID Scanner are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID and laptop are placed.
 
 3) The phidget interface consists of 8 digital and analog inputs.
 
  ![Alt text](ControlSystemImage/Phidgetkit.jpg)
 
-4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
+4) The Phidget RFID Scanner is connected to the laptop seperately from the interface.
 
-5) The Phidget RFID is connected to the laptop seperately from the interface.
-
-6) The Button is to enable for the video to start
-
- ![Alt text](ControlSystemImage/Buttonstart.jpg)
-
-7) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
-  through our program.
-
-8) The Phidget RFID has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
+5) The Phidget RFID Scanner has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
 
  ![Alt text](ControlSystemImage/RFIDTags.jpg)
 
- ![Alt text](ControlSystemImage/RFIDsensor.jpg)
-
-9) The RFID scanner will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
+6) The RFID Scanner will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
 
  ![Alt text](ControlSystemImage/RFIDreader.jpg)
+7) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
+  through our program.
+
+###### **Gamebox buttons**
+
+8) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
+
+9) The Button is to enable for the video to start
 
 10) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
 
@@ -501,31 +511,85 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 12) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
 
-##### **Station 3 & 4**
+---
 
-1) The sensors we have in station 3 & 4 are:
-    * 1 Phidget RIFD 
-    * Multiple Phidget RFID Tags
+##### **Station 3**
 
-2) The Phidget RFID are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID and laptop are placed.
+1) The components we have in station 3 are:
+    * 1 Phidget RIFD Scanner
+    * 14 Phidget RFID Tags
+    * 2 Buttons 
+    * 1 Rotary potentiometer
 
-3) The Phidget RFID is connected to the laptop seperately from the interface.
+##### **Station 3 Gamebox**
 
-4) The Phidget RFID has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20Gamebox.jpg)
 
- ![Alt text](ControlSystemImage/RFIDsensor.jpg)
+###### **Gamebox RFIDs**
 
- ![Alt text](ControlSystemImage/RFIDTags.jpg)
+2) The Phidget RFID Scanner are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID Scanner and laptop are placed.
 
-5) The RFID reader will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
+3) The Phidget RFID Scanner is connected to the laptop seperately from the interface.
+
+4) The Phidget RFID Scanner has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
+ 
+![Alt text](ControlSystemImage/RFIDTags.jpg)
+
+5) The RFID Scanner will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
 
  ![Alt text](ControlSystemImage/RFIDreader.jpg)
 
-6) For the interactivity to work, we will be using an application called **Widget Designer** to program the RFID Reader and Tags.
+###### **Gamebox buttons**
 
-7) To use Widget Designer, you will need to download the application if not downloaded.
+6) The Button is to enable for the video to start
 
-8) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
+7) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
+  through our program.
+
+8) For the interactivity to work, we will be using an application called **Widget Designer** to program the RFID Scanner and Tags.
+
+9) To use Widget Designer, you will need to download the application if not downloaded.
+
+10) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
+
+##### **Station 4**
+
+1) The components we have in station 3 are:
+    * 1 Phidget RIFD Scanner
+    * 8 Phidget RFID Tags
+    * 2 Buttons 
+    * 1 Rotary potentiometer
+
+##### **Station 4 Gamebox**
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20Gamebox.jpg)
+
+###### **Gamebox RFIDs**
+
+2) The Phidget RFID Scanner are connected to the laptop via USB-B to USB-A cable. We are using a usb extension in our setup due to the location of where the Phidget interface, Phidget RFID Scanner and laptop are placed.
+
+3) The Phidget RFID Scanner is connected to the laptop seperately from the interface.
+
+4) The Phidget RFID Scanner has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
+ 
+![Alt text](ControlSystemImage/RFIDTags.jpg)
+
+5) The RFID Scanner will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
+
+ ![Alt text](ControlSystemImage/RFIDreader.jpg)
+
+###### **Gamebox buttons**
+
+6) The Button is to enable for the video to start
+
+7) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
+  through our program.
+
+8) For the interactivity to work, we will be using an application called **Widget Designer** to program the RFID Scanner and Tags.
+
+9) To use Widget Designer, you will need to download the application if not downloaded.
+
+10) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
 
 ---
 
@@ -607,51 +671,66 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 To start, users can scan a QR code that we generated for each station which will bring them to an infographic. The infographic will let users know more about our project as well as instructions on how to play. Every Station has a QR code located close to it for users to scan and it will bring them to the corresponding infographics.
 
 ---
+
+
 ### Introduction
 
+<<<<<<< Updated upstream
 **Introduction QR code of summary of all stations:**
 
 ![Alt text](QRImages/InfoQR.png)
+=======
+**Introduction QR code:**
+
+![Alt text](Interacting/FP%20documentation%20Images/Intro%20QR.png)
+>>>>>>> Stashed changes
 
 **Introduction infographic:**
 
-![Alt text](Interacting/MVP%20documentation%20Images/Infographic.gif)
+![Alt text](Interacting/FP%20documentation%20Images/Intro%20Infographic.gif)
+
 
 ---
 
 ### Station 1
-1) This is the set up for station 1:
+![Alt text](Interacting/FP%20documentation%20Images/Station%201%20Banner.jpg)
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%201%20full%20setup.jpg)
+This is the set up for Station 1:
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%201%20Gamebox.jpg)
 
 ---
 
-This is the QR code for Station 1.
-
 **QR code:**
 
-![Alt text](QRImages/Station1QR.png)
+This is the QR code for Station 1.
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%201%20QR.png)
+
+
+**Station 1 Infographic:**
+![Alt text](Interacting/FP%20documentation%20Images/Station%201%20Infographic.gif)
 
 ---
 
 Interactivity for Station 1:
-![Alt text](Interacting/photo_2023-06-07_02-14-01.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%201%20Gamebox.jpg)
 
 We have a button and a Rotary potentiometer. The button is used to start the station, while the Rotary potentiometer is to reset the station as well as a backup for if the button fails.
 
 #### Side View
-![Alt text](Interacting/photo_2023-06-07_02-13-41.jpg)
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-13-41.jpg)
 
 For the button and Rotary potentiometer to work, we used a Phiget Interface 8/8/8 kit to power, transmit and receive protocols from PB. 
 
-![Alt text](Interacting/photo_2023-06-07_02-13-46.jpg)
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-13-46.jpg)
 
 ---
 
 #### Shadow Puppetry Element
 This station has a shadow puppetery element. This shadow puppetery is achieved by attaching a model to a servo motor.
 
-![Alt text](Interacting/photo_2023-06-07_02-14-31.jpg)
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-14-31.jpg)
 
 This servo motor is timed on PB using WD for it to move into position and move away at the right moment while the video is running.
 
@@ -665,46 +744,53 @@ This servo motor is timed on PB using WD for it to move into position and move a
 
 The servo motor is being driven by a **PhidgetAdvancedServo 8-Motor** which is a servo controller.
 
-![Alt text](Interacting/photo_2023-06-07_02-13-51.jpg)
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-13-51.jpg)
 
 ---
 
 #### Station 2
 
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20Banner.jpg)
+
 This is the set up for station 2:
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20full%20setup.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20Full%20Setup.jpg)
 
 ---
 
-This is the QR code for Station 2.
-
 **QR code:**
 
+<<<<<<< Updated upstream
 ![Alt text](QRImages/Station2QR.png)
+=======
+This is the QR code for Station 2.
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20QR.png)
+
+**Station 2 Infographic:**
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20Infographic.gif)
+
+>>>>>>> Stashed changes
 
 ---
 
 Interactivity for Station 2:
 
+Props:
 
-Options:
-
-
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20interactivity%20pt1.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20Props.jpg)
 
 
 
 Button and Scanner:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20interactivity%20pt2.jpg)
-
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20Gamebox.jpg)
 
 
 For this station's interactivity, we used RFID, buttons and rotary potentiometer.
 
 #### Side View
 
-![Alt text](Interacting/photo_2023-06-07_02-14-23.jpg)
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-14-23.jpg)
 
 For station 2, we used RFID tags to let users pick their choices for the game. Throughout our stations, we used card RFID tags, keychain RFID tags as well as disk RFID tags
 
@@ -715,11 +801,11 @@ We put cardboard cutouts of the ingame options onto the RFID tags which help to 
 
 
 #### Front
-![Alt text](Interacting/photo_2023-06-07_02-14-40.jpg)
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-14-40.jpg)
 
 
 #### Back
-![Alt text](Interacting/photo_2023-06-07_02-14-42.jpg)
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-14-42.jpg)
 
 
 From Stations 2 to 4, users will be able to pick options that will lead to two different paths. One path is labelled "A" while the other is labelled "B". Users should then follow the labelling and numberings and choose the options in order.
@@ -728,47 +814,49 @@ From Stations 2 to 4, users will be able to pick options that will lead to two d
 
 Users can pick any option first. After picking users are advised to keep to one path as deferring would result in a break in the flow of the story. 
 
-Station 2 First Choice:
+Station 2 Path A Props:
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20set1%20options.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20A%20Props.jpg)
 
-Station 2 Second Choice:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202%20interactivity%20pt3.jpg)
-
-
-
-For users to select their choice, they would have to use these RFID tags and tap it on the RFID reader. This would jump the video to  play the option which users have selected. 
-
-![Alt text](Interacting/photo_2023-06-07_02-14-45.jpg)
+Station 2 Path B Props:
+![Alt text](Interacting/FP%20documentation%20Images/Station%202%20B%20Props.jpg)
 
 
+For users to select their choice, they would have to use these RFID tags and tap it on the RFID Scanner. This would jump the video to  play the option which users have selected. 
 
-For every group of options, only one of them is correct. When users select the wrong option, the video shown to them will be a fail screen. 
+![Alt text](Interacting/POC%20documentation%20Images/photo_2023-06-07_02-14-45.jpg)
+
+
+For every group of options, only one of them is correct. When users select the wrong option, the video shown to them will be a fail screen. They will then be brought back to the point just before they made their inital decision and will be able to make another choice.
 
 After choosing the right answer, the video will progress the story and give users context of the next station before they have to move on the the 3rd station.
-
-![Alt text](Interacting/whiteBTN.png)
-
-The Rotary potentiometer for this station resets the station as well as act as a backup for if the button fails to work.
-
-![Alt text](Interacting/ST2RS.png)
 
 
 ---
 
 ### Station 3
 
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20Banner.png)
+
 This is the setup for station 3:
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20full%20setup.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20Props.jpg)
 
 ---
 
-This is the QR code for Station 3.
-
 **QR code:**
 
+<<<<<<< Updated upstream
 ![Alt text](QRImages/Station3QR.png)
+=======
+This is the QR code for Station 3.
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20QR.png)
+
+**Station 3 Infographic:**
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20Infographic.gif)
+>>>>>>> Stashed changes
 
 ---
 
@@ -776,26 +864,20 @@ Interactivity for Station 3:
 
 These are the interactivity components that are used for Station 3
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20Props.jpg)
+
+To continue on their journey after breaking in, users must first press the button which resonates with the options which they picked in Station 2.
+
+For example, if they pick a prop from Path A in Station 2, they would press the button labelled "A" on the gamebox at Station 3. 
+
+If users are unsure, the video at the end of Station 2 will tell them to move on to the next station (Station 3) as well as which button to press when they arrive at Station 3.
 
 
-Station 3 First Choice: 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt1.jpg)
+Station 3 Path A Props: 
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20A%20Props.jpg)
 
-Station 3 Second Choice: 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt2.jpg)
-
-Station 3 Third Choice:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt3.jpg)
-
-Station 3 Third Choice 1st path :
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt6.jpg)
-
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt5.jpg)
-
-
-Station 3 Third Choice 2nd path:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%203%20interactivity%20pt4.jpg)
+Station 3 Path B Props: 
+![Alt text](Interacting/FP%20documentation%20Images/Station%203%20B%20Props.jpg)
 
 
 Similarly to Station 2, for users to select their choice, they would have to take the RFID tag that corresponds to an option at their current scenrio and place it on the RFID scanner
@@ -805,43 +887,52 @@ Similarly to Station 2, for users to select their choice, they would have to tak
 ---
 
 ### Station 4
-This is the setup for 4:
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20full%20setup%20w%20WB.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20Banner.jpg)
+
+
+This is the setup for Station 4:
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20Full%20Setup.jpg)
 
 ---
 
-These are the QR codes and infographic for Station 3.
-
 **QR code:**
 
+<<<<<<< Updated upstream
 ![Alt text](QRImages/Station4QR.png)
+=======
+This is the QR code for Station 4.
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20QR.png)
+
+**Station 4 Infographic:**
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20Infographic.gif)
+>>>>>>> Stashed changes
 
 ---
 
 Interactivity for Station 4:
 
-Station 4 First Choice:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt1.jpg)
+These are the interactivity components that are used for Station 4
 
-Station 4 Second and Third Choices 1st path:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20options%20pt4.jpg)
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20Full%20Setup.jpg)
 
-Station 4 Second Choice 1st path:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt6.jpg)
 
-Station 4 Third Choice 1st path:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt8.jpg)
+Similar to Station 3, users must first press the button which resonates with the options which they picked in Station 3 before they can escape with their bounty.
 
-Station 4 Second and Third Choices 2nd path:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20options%20pt1.jpg)
+For example, if they pick a prop from Path A in Station 3, they would press the button labelled "A" on the gamebox at Station 4. 
 
-Station 4 Second Choice 2nd path:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt3.jpg)
+If users are unsure, the video at the end of Station 3 will tell them to move on to the next station (Station 4) as well as which button to press when they arrive at Station 4.
 
-Station 4 Third Choice 2nd path:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20interactivity%20pt2.jpg)
+Station 4 Path A Props:
 
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20A%20Props.jpg)
+
+Station 4 Path B Props:
+
+![Alt text](Interacting/FP%20documentation%20Images/Station%204%20B%20Props.jpg)
 
 
 Once again, for users to select their choice, they would have to take the RFID tag that corresponds to an option at their current scenrio and place it on the RFID scanner
