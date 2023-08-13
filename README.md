@@ -121,7 +121,7 @@ Title : Stealing The Diamond
 ---
 
 **[(Back To Top)](#table-of-content)**
-## Storyboard
+## Storyboards
 
 <br>
 
