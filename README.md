@@ -353,8 +353,11 @@ Wait for about a few minutes until the "signal" and the "ready" light lit up (in
 5) go to tools, under device settings, dante device click on static ip
 ![Alt text](315Images/DanteInterConfig/photo1689952206.jpeg)
 
-6) change ip address to appropriate ip address and apply
-7) Reboot Dante if necessary
+![Alt text](AudioInstallationImage/IPconfig.jpg)
+
+
+7) change ip address to appropriate ip address and apply
+8) Reboot Dante if necessary
 
 ---
 ### Lighting System
@@ -400,6 +403,11 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 **In this setup, we will are using 2 Phidget interfaces, 3 Phidget RFID and 1 Phidget Advance servo 8-Motor. 
   The interface we are using is the phidget interface 8/8/8.**
 
+ ![Alt text](ControlSystemImage/Phidgetkit.jpg)
+
+ ![Alt text](ControlSystemImage/PhidgetServo8motor.jpg)
+  
+
 * Note: We have used USB Extenders and HUB due to where the different equipment are placed and insufficent USB-A ports
 
 ##### **Station 1**
@@ -415,22 +423,28 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 3) The phidget interface consists of 8 digital and analog inputs.
 
+ ![Alt text](ControlSystemImage/Phidgetkit.jpg)
+
 4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
 
-7) The Button is to enable for the video to start
+5) The Button is to enable for the video to start
 
-8) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
+ ![Alt text](ControlSystemImage/Buttonstart.jpg)
+
+6) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
   through our program.
 
-9) The Phidget Advance servo 8-Motor is connected seperately from the interface.
+7) The Phidget Advance servo 8-Motor is connected seperately from the interface.
 
-10) The RC servo motor is connected to 1 channel in the Phidget Advance servo 8-Motor.
+8) The RC servo motor is connected to 1 channel in the Phidget Advance servo 8-Motor.
 
-5) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
+ ![Alt text](ControlSystemImage/ServoMotor.jpg)
 
-6) To use Widget Designer, you will need to download the application if not downloaded.
+9) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
 
-7) Program Files can be found under **MVP WD Files** in this GitHub Repository
+10) To use Widget Designer, you will need to download the application if not downloaded.
+
+11) Program Files can be found under **MVP WD Files** in this GitHub Repository
 
 
 ##### **Station 2**
@@ -445,18 +459,28 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 3) The phidget interface consists of 8 digital and analog inputs.
 
+ ![Alt text](ControlSystemImage/Phidgetkit.jpg)
+
 4) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
 
 5) The Phidget RFID is connected to the laptop seperately from the interface.
 
 6) The Button is to enable for the video to start
 
+ ![Alt text](ControlSystemImage/Buttonstart.jpg)
+
 7) While the Rotary potentiometer is there as a backup for the button, it also enables the content to be replayable 
   through our program.
 
 8) The Phidget RFID has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
 
+ ![Alt text](ControlSystemImage/RFIDTags.jpg)
+
+ ![Alt text](ControlSystemImage/RFIDsensor.jpg)
+
 9) The RFID scanner will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
+
+ ![Alt text](ControlSystemImage/RFIDreader.jpg)
 
 10) For the interactivity to work, we will be using an application called **Widget Designer** to program the button and sensor.
 
@@ -476,7 +500,13 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 4) The Phidget RFID has RFID tags for object selection in our content. Each RFID tag is assigned an RFID id.
 
+ ![Alt text](ControlSystemImage/RFIDsensor.jpg)
+
+ ![Alt text](ControlSystemImage/RFIDTags.jpg)
+
 5) The RFID reader will read the tag's id and jump to a specific scene (the choice made by the user) and play it.
+
+ ![Alt text](ControlSystemImage/RFIDreader.jpg)
 
 6) For the interactivity to work, we will be using an application called **Widget Designer** to program the RFID Reader and Tags.
 
