@@ -675,7 +675,6 @@ To start, users can scan a QR code that we generated for each station which will
 
 ### Introduction
 
-<<<<<<< Updated upstream
 **Introduction QR code of summary of all stations:**
 
 ![Alt text](QRImages/InfoQR.png)
@@ -683,7 +682,6 @@ To start, users can scan a QR code that we generated for each station which will
 **Introduction QR code:**
 
 ![Alt text](Interacting/FP%20documentation%20Images/Intro%20QR.png)
->>>>>>> Stashed changes
 
 **Introduction infographic:**
 
@@ -760,7 +758,6 @@ This is the set up for station 2:
 
 **QR code:**
 
-<<<<<<< Updated upstream
 ![Alt text](QRImages/Station2QR.png)
 =======
 This is the QR code for Station 2.
@@ -770,7 +767,6 @@ This is the QR code for Station 2.
 **Station 2 Infographic:**
 ![Alt text](Interacting/FP%20documentation%20Images/Station%202%20Infographic.gif)
 
->>>>>>> Stashed changes
 
 ---
 
@@ -846,7 +842,6 @@ This is the setup for station 3:
 
 **QR code:**
 
-<<<<<<< Updated upstream
 ![Alt text](QRImages/Station3QR.png)
 =======
 This is the QR code for Station 3.
@@ -856,7 +851,7 @@ This is the QR code for Station 3.
 **Station 3 Infographic:**
 
 ![Alt text](Interacting/FP%20documentation%20Images/Station%203%20Infographic.gif)
->>>>>>> Stashed changes
+
 
 ---
 
@@ -899,7 +894,6 @@ This is the setup for Station 4:
 
 **QR code:**
 
-<<<<<<< Updated upstream
 ![Alt text](QRImages/Station4QR.png)
 =======
 This is the QR code for Station 4.
@@ -909,7 +903,7 @@ This is the QR code for Station 4.
 **Station 4 Infographic:**
 
 ![Alt text](Interacting/FP%20documentation%20Images/Station%204%20Infographic.gif)
->>>>>>> Stashed changes
+
 
 ---
 
