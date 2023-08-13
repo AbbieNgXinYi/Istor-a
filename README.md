@@ -55,11 +55,14 @@ Title : Stealing The Diamond
    - [PB management](#pb-management)
    - [Christie Pandora Box](#christie-pandora-box)
    - [*Interactivity*](#interactivity)
+      - QR for Introduction
       - [Station 1](#station-1)
          - Side view of station 1
          - Shadow Puppetry Element
       - [Station 2](#station-2)
          - Side View
+      - [Station 3](#station-3)
+      - [Station 4](#station-4)
 
 - **[Troubleshooting](#troubleshooting)**
    - [Installation](#installation)
@@ -606,13 +609,9 @@ To start, users can scan a QR code that we generated for each station which will
 ---
 ### Introduction
 
-**Introduction QR code at station:**
+**Introduction QR code of summary of all stations:**
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station%201%20QR%20Code.jpg)
-
-**Introduction QR code:**
-
-![Alt text](Interacting/MVP%20documentation%20Images/intro.jpg)
+![Alt text](QRImages/InfoQR.png)
 
 **Introduction infographic:**
 
@@ -682,7 +681,7 @@ This is the QR code for Station 2.
 
 **QR code:**
 
-![Alt text](QRImages/Station2.png)
+![Alt text](QRImages/Station2QR.png)
 
 ---
 
@@ -769,7 +768,7 @@ This is the QR code for Station 3.
 
 **QR code:**
 
-![Alt text](QRImages/Station3.png)
+![Alt text](QRImages/Station3QR.png)
 
 ---
 
@@ -816,7 +815,7 @@ These are the QR codes and infographic for Station 3.
 
 **QR code:**
 
-![Alt text](QRImages/Station4.png)
+![Alt text](QRImages/Station4QR.png)
 
 ---
 
