@@ -50,7 +50,6 @@ Title : Stealing The Diamond
    - [Video](#video-system)
    - [Audio](#audio-system)
    - [Lighting](#lighting-system)
-   - [Control](#control-system)
    - [Phidget-Control-System](#phidget-control-system)
 
 - **[Operational and Testing](#operational-and-testing)**
