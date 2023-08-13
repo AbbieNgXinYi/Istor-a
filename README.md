@@ -1,10 +1,10 @@
 # Istor-a
 ### Project Introduction
-Title : The Great Diamond Heist
+Title : Stealing The Diamond
 
 ![Alt text](henrystdsb/henrystd.jpg)
 
-* Welcome to the mesmerising world of "henry stickmin" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as henry stickmin, the main character conquering formidable challenges to steal The Great Diamond.
+* Welcome to the mesmerising world of "Henry Stickmin" an immersive and exhilarating gaming experience. The game is filled with many different possibilities, weapons, and unforgettable adventures. In this epic journey, you will play as Henry , the main character conquering formidable challenges to steal The Great Diamond.
 
 
 # Objective:
@@ -140,11 +140,15 @@ Title : The Great Diamond Heist
 
 ![Alt text](/StoryboardPics/IMG_20230715_144256.jpg)
 
-* From **scene A**, there are **3 options** to select from and *1 of them* is ***CORRECT***. If **WRONG**, the retry scene will *replay* until you picked the right choice. When the right option is selected, the next scene will be where you had successfully entered the museum, and is planning on how to bypass  2 guards, with **3 additional options + 1 timer**. The retry scene will *replay* until the right option is selected. Once the right option is selected, the scene will end off where you successfully bypass 2 guards and is now planning on how to bypass the 3rd guard, while you are getting closer to the diamond.
+* From **scene A**, there are **3 options** to select from and *1 of them* is ***CORRECT***. If **WRONG**, the retry scene will *replay* until you picked the right choice. When the right option is selected, the next scene will be where you had successfully entered the museum, and is planning on how to bypass  2 guards, with **3 additional options + 1 timer**. The retry scene will *replay* until the right option is selected.
+  
+* Once the right option is selected, the scene will end off where you successfully bypass 2 guards and is now planning on how to bypass the 3rd guard, while you are getting closer to the diamond.
 
 ![Alt text](/StoryboardPics/scenario%20B%20st2/scenario%20B%20st2_1.jpg)
 
-* From **scene B**, there are **3 options** to select and *1 of them* is ***CORRECT***. The retry menu will *replay* when **Wrong option** is picked. If the right option is selected,  the next scene will bring you to the roof of the museum where you are given another **4 options** to bypass the guard. When you picked the wrong option, the retry scene will *replay* until you picked the right choice. Once you selected the right option, the scene will end off where you successfully bypass the guard and entered the museum from the rooftop, and is now planning on how to steal the diamond from the catwalk above.
+* From **scene B**, there are **3 options** to select and *1 of them* is ***CORRECT***. The retry menu will *replay* when **Wrong option** is picked. If the right option is selected,  the next scene will bring you to the roof of the museum where you are given another **4 options** to bypass the guard. When you picked the wrong option, the retry scene will *replay* until you picked the right choice.
+  
+* Once you selected the right option, the scene will end off where you successfully bypass the guard and entered the museum from the rooftop, and is now planning on how to steal the diamond from the catwalk above.
 
 <br>
 
@@ -152,11 +156,15 @@ Title : The Great Diamond Heist
 
 ![Alt text](/StoryboardPics/IMG_20230715_144245.jpg)
 
-Following up from Station 2 of **scene A**, you start off with bypassing 1 guard thats guarding the door. You are given **2 options**. If fail, retry scene will play. If not, you will proceed on infront of the door, towards to the diamond. You are now given additional **4 options**. The retry scene will replay if you selected the **wrong option**. Once the right option is picked, the scene will end off where the Chaos Agency is notified of the Chaos happening in the museum.
+Following up from Station 2 of **scene A**, you start off with bypassing 1 guard thats guarding the door. You are given **2 options**. If fail, retry scene will play. If not, you will proceed on infront of the door, towards to the diamond. 
+
+* You are now given additional **4 options**. The retry scene will replay if you selected the **wrong option**. Once the right option is picked, the scene will end off where the Chaos Agency is notified of the Chaos happening in the museum.
 
 ![Alt text](/StoryboardPics/scenario%20B%20st3/scenario%20B%20st3_1.jpg)
 
-* For **scene B**, you are given **3 options** to get closer to the diamond. If ***Wrong option*** is picked, the retry scene will *replay* until the right option is selected. When the right option is selected, the next scene will be how you plan to steal the diamond by giving you **2 additional options** to select from. The selection interface will *replay* until the right option is selected. After successfully stealing the diamond, you now stuck in a corridor with 2guards thats near an exit door. From here, you are given **3 options** to choose from. If fail, retry scene will *replay* until the the **right option** is picked. Once the **right option** is picked, the scene will end off where u have to bypass 1 more guard.
+* For **scene B**, you are given **3 options** to get closer to the diamond. If ***Wrong option*** is picked, the retry scene will *replay* until the right option is selected. When the right option is selected, the next scene will be how you plan to steal the diamond by giving you **2 additional options** to select from. The selection interface will *replay* until the right option is selected.
+  
+* After successfully stealing the diamond, you now stuck in a corridor with 2guards thats near an exit door. From here, you are given **3 options** to choose from. If fail, retry scene will *replay* until the the **right option** is picked. Once the **right option** is picked, the scene will end off where u have to bypass 1 more guard.
 
 <br>
 
@@ -277,7 +285,6 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ---
 
-
 ### Audio System
 * Equipment needed:
   + 4 speakers (JBL Control 23)
@@ -395,7 +402,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 * Note: We have used USB Extenders and HUB due to where the different equipment are placed and insufficent USB-A ports
 
-##### Station 1
+##### **Station 1**
 
 1) The sensors we have in station 1 are:
     * 1 Rotary potentiometer
@@ -426,7 +433,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 7) Program Files can be found under **MVP WD Files** in this GitHub Repository
 
 
-##### Station 2
+##### **Station 2**
 
 1) The sensors we have in station 2 are:
     * 1 Phidget RIFD 
@@ -457,7 +464,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 12) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
 
-##### Station 3 & 4
+##### **Station 3 & 4**
 
 1) The sensors we have in station 3 & 4 are:
     * 1 Phidget RIFD 
