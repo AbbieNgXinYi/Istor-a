@@ -287,7 +287,7 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
     * Extenders run on LAN cables for extension
         1) LAN cables have a locking mechanism while HDMI cables do not. This ensures that aren't lose or pulled out easily.
 
-6) We are using a software called **Christie Pandora Box**(projection mapping software) to project out our content. 
+6) We are using a software called **Christie Pandora Box** (projection mapping software) to project out our content. 
    To use it, you will need to accquire a dongle that has their license to operate the software. 
 
 7) The dongle is plugged into one of the USB-A ports in the media server.
