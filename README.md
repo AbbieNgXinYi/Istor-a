@@ -210,9 +210,9 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 **[(Back To Top)](#table-of-content)**
 ## Demo Video
 
-* **Here is the demo video of how the story flows:**
-![Alt text]()
+**Here is the demo video of how the story flows:**
 
+[![Alternate Text](315Images/thumbnail.png)](https://youtu.be/HFIKXJoBQDE "EGL315 Demo Video")
 
 ---
 
@@ -235,8 +235,6 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 ---
 
 ## System Diagram for Control
-### Projector Control
-![Alt text](SystemDiagram/Control/315-e-schematic-c.png)
 
 ### Phidget Control
 ![Alt text](SystemDiagram/Control/315-e-schematic-c-phidget.png)
@@ -405,13 +403,8 @@ Behind the grandMA3 onPC Command Wing XT
 Lite-Puter DP-81 DMX Splitter
 
 4) The console is connected to the pandora box via LAN which enables the pandora box to communicate with the grandMA3 console by sending command using OSC so that the lighting console can automatically excute the sequences or the cues that was stored inside the console. The OSC command can be set by using the pandora box widget designer.
+
 --- 
-### Control System
-We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to control the 4 projectors.
-1) The cp3 processor, laptop and all 4 projectors are connected to the network switcher using lan cables.
-2) Crestron VT-Pro-e is used to design and create the buttons.
-3) Each buttons were given different digital joins digits.
-4) 2) SIMPL windows is used to program all the 4 projectors to 'ON' or 'OFF'.
 
 
 #### Phidget Control System
@@ -428,11 +421,19 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 ##### **Station 1**
 
+<<<<<<< Updated upstream
 1) The components we have in station 1 are:
     * 1 Rotary potentiometer
     * 1 Button
     * 1 Phidget Advance servo 8-Motor
     * 1 RC servo motor 
+=======
+1) The sensors we have in station 1 are:
+   * 1 Rotary potentiometer
+   * 1 Button
+   * 1 Phidget Advance servo 8-Motor
+   * 1 RC servo motor
+>>>>>>> Stashed changes
 
 2) The Phidget interface and Phidget Advance servo 8-Motor are connected to the laptop via USB-B to USB-A cable. 
    We are using a usb extension in our setup due to the location of where the interface, servo motor and laptop are place.
@@ -463,17 +464,25 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 10) To use Widget Designer, you will need to download the application if not downloaded.
 
-11) Program Files can be found under **MVP WD Files** in this GitHub Repository
+11) Program Files can be found under **WD file.zip** in this GitHub Repository
 
 ---
 
 ##### **Station 2**
 
+<<<<<<< Updated upstream
 1) The components we have in station 2 are:
     * 1 Phidget RIFD Scanner
     * 13 Phidget RFID Tags 
     * 1 Button
     * 1 Rotary potentiometer
+=======
+1) The sensors we have in station 2 are:
+   * 1 Phidget RIFD 
+   * Multiple Phidget RFID Tags 
+   * 1 Button
+   * 1 Rotary potentiometer
+>>>>>>> Stashed changes
 
 
 ##### **Station 2 Gamebox**
@@ -509,11 +518,19 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 11) To use Widget Designer, you will need to download the application if not downloaded.
 
-12) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
+12) Program Files that has been used for out project can be found under **WD file.zip** in this GitHub Repository.
 
 ---
 
+<<<<<<< Updated upstream
 ##### **Station 3**
+=======
+1) The sensors we have in station 3 & 4 are:
+   * 2 Phidget RIFD 
+   * 2 Buttons
+   * Multiple Phidget RFID Tags
+   * 2 Rotary potentiometer
+>>>>>>> Stashed changes
 
 1) The components we have in station 3 are:
     * 1 Phidget RIFD Scanner
@@ -539,6 +556,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
  ![Alt text](ControlSystemImage/RFIDreader.jpg)
 
+<<<<<<< Updated upstream
 ###### **Gamebox buttons**
 
 6) The Button is to enable for the video to start
@@ -590,6 +608,23 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 9) To use Widget Designer, you will need to download the application if not downloaded.
 
 10) Program Files that has been used for out project can be found under **MVP WD Files** in this GitHub Repository.
+=======
+6) The phidget interface consists of 8 digital and analog inputs.
+
+ ![Alt text](ControlSystemImage/Phidgetkit.jpg)
+
+7) The Rotary potentiometer is connected to one analog input, the Button is connected to one digital input.
+
+8) The Button is to enable for the video to start
+
+ ![Alt text](ControlSystemImage/Buttonstart.jpg)
+
+9) For the interactivity to work, we will be using an application called **Widget Designer** to program the RFID Reader and Tags.
+
+10) To use Widget Designer, you will need to download the application if not downloaded.
+
+11) Program Files that has been used for out project can be found under **WD file.zip** in this GitHub Repository.
+>>>>>>> Stashed changes
 
 ---
 
@@ -985,14 +1020,25 @@ Once again, for users to select their choice, they would have to take the RFID t
 
 ---
 #### Network
-1) Netgear router is used and set to wireless connection.
-    2) ip address is of router is changed to 192.168.180.5
-    3) laptop 1 ip address 192.168.180.9
-    4) laptop 2 ip address 192.168.180.7
-    5) media server ip address 192.168.180.69
-    6) media server ip address 192.168.180.88
-2) Static range is 192.168.180.2 to 192.168.180.99
-3) Dynamic range is 192.168.180.100 to 192.168.180.254
-4) All the equipments ip addresses falls under the static range to prevent interference from other 3rd party devices that connects to the same network.
-    
+
+**Netgear router is used and set to wireless connection.**
+
+| Device | IP Address | Subnet Mask | Default Gateway |
+| --- | --- | --- |  --- |
+| **Router** | 192.168.180.5 | 255.255.255.0 | 192.168.1.1 |
+| **Laptop** | 192.168.180.99 | 255.255.255.0 | 192.168.180.5 |
+| **Media Server 1** | 192.168.180.69 | 255.255.255.0 | 192.168.180.5 |
+| **Media Server 2** | 192.168.180.88| 255.255.255.0 | 192.168.180.5|
+
+<br>
+
+| Protocol | IP Address Range | Subnet Mask |
+| --- | --- | --- |
+| **Static** | 192.168.180.2 to 192.168.180.99 | 255.255.255.0 |
+| **Dynamic** | 192.168.180.100 to 192.168.180.254 | 255.255.255.0 |
+
+<br>
+
+**All the equipments ip addresses falls under the static range to prevent interference from other 3rd party devices that connects to the same network.**
+
 ---
