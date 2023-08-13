@@ -17,60 +17,60 @@ Title : Stealing The Diamond
 
 ## Table of Content:
 
-- **[Team Members Infomation](#Team-Members-Information)**
+- **[Team Members Infomation](#team-members-information)**
 
-- **[Storyboards](#Storyboards)(All Stations + Descriptions )**
-   - [Station 1](#Station-1)
-   - [Station 2](#Station-2)
-   - [Station 3](#Station-3)
-   - [Station 4](#Station-4)
+- **[Storyboards](#storyboards) (All Stations + Descriptions )**
+   - [Station 1](#station-1)
+   - [Station 2](#station-2)
+   - [Station 3](#station-3)
+   - [Station 4](#station-4)
 
-- **[Gameplay](#Gameplay)**
+- **[Gameplay](#gameplay)**
 
-- **[Setup Progress](#Setup-Progress)**
+- **[Setup Progress](#setup-progress)**
    - **System Diagrams**
-      * [Video](#System-Diagram-for-Video)
-      * [Audio](#System-Diagram-for-Audio)
-      * [Lighting](#System-Diagram-for-Lighting)
-      * [Controls](#System-Diagram-for-Controls)
-         + [Projector](#Projector-Control)
-         + [Phidget *(All Stations)*](#Phidget-Control)
+      * [Video](#system-diagram-for-video)
+      * [Audio](#system-diagram-for-audio)
+      * [Lighting](#system-diagram-for-lighting)
+      * [Controls](#system-diagram-for-controls)
+         + [Projector](#projector-control)
+         + [Phidget *(All Stations)*](#phidget-control)
 
-- **[Floor Plan](#Floor-Plan)**
+- **[Floor Plan](#floor-plan)**
    - Overall top view
    - Details top view per station
    - Details side view per station
    - Detailed of the equipments (placed at both top corner of the room)
 
-- **[Installation](#Installation)**
-   - [Video](#Video-System)
-   - [Audio](#Audio-System)
-   - [Lighting](#Lighting-System)
-   - [Control](#Control-System)
-   - [Phidget-Control-System](#Phidget-Control-System)
+- **[Installation](#installation)**
+   - [Video](#video-system)
+   - [Audio](#audio-system)
+   - [Lighting](#lighting-system)
+   - [Control](#control-system)
+   - [Phidget-Control-System](#phidget-control-system)
 
-- **[Operational and Testing](#Operational-and-Testing)**
-   - [GrandMA3 on PC](#GrandMA3-on-PC)
-   - [PB management](#PB-management)
-   - [Christie Pandora Box](#Christie-Pandora-Box)
-   - [*Interactivity*](#Interactivity)
-      - [Station 1](#Station-1)
+- **[Operational and Testing](#operational-and-testing)**
+   - [GrandMA3 on PC](#grandma3-on-pc)
+   - [PB management](#pb-management)
+   - [Christie Pandora Box](#christie-pandora-box)
+   - [*Interactivity*](#interactivity)
+      - [Station 1](#station-1)
          - Side view of station 1
          - Shadow Puppetry Element
-      - [Station 2](#Station-2)
+      - [Station 2](#station-2)
          - Side View
 
-- **[Troubleshooting](#Troubleshooting)**
-   - [Installation](#Installation)
-   - [Operational](#Operational)
-      - [PB Management](#PB-Management)
-      - [Christie Pandora Box](#Christie-Pandora-Box)
-      - [Widget Designer](#Widget-Designer)
-      - [Network](#Network)
+- **[Troubleshooting](#troubleshooting)**
+   - [Installation](#installation)
+   - [Operational](#operational)
+      - [PB Management](#pb-management)
+      - [Christie Pandora Box](#christie-pandora-box)
+      - [Widget Designer](#widget-designer)
+      - [Network](#network)
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 ## Team's Member Infomation
 
 
@@ -120,7 +120,7 @@ Title : Stealing The Diamond
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 ## Storyboard
 
 <br>
@@ -183,7 +183,7 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 ## Gameplay
 
 <br>
@@ -200,7 +200,7 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 # Setup Progress
 ## System Diagram for Video
 
@@ -227,7 +227,7 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 ## Floor Plan
 
 <br>
@@ -247,7 +247,7 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 ## Installation
 ### Video System
 
@@ -516,7 +516,7 @@ We are using 1 cp3 processor, 1 router, 1 network switcher and 1 laptop to contr
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 ## Operational and Testing
 
 ### GrandMA3 onPC
@@ -596,14 +596,15 @@ To start, users can scan a QR code that we generated for each station which will
 ---
 ### Introduction
 
-Introduction QR code at station:
+**Introduction QR code at station:**
 
 ![Alt text](Interacting/MVP%20documentation%20Images/Station%201%20QR%20Code.jpg)
 
-Introduction QR code:
+**Introduction QR code:**
+
 ![Alt text](Interacting/MVP%20documentation%20Images/intro.jpg)
 
-Introduction infographic:
+**Introduction infographic:**
 
 ![Alt text](Interacting/MVP%20documentation%20Images/Infographic.gif)
 
@@ -616,17 +617,11 @@ Introduction infographic:
 
 ---
 
-These are the QR codes and infographic for Station 1.
+This is the QR code for Station 1.
 
-QR code:
+**QR code:**
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station1QR.jpg)
-
-![Alt text](Interacting/MVP%20documentation%20Images/Station1.jpg)
-
-Infographic:
-
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
+![Alt text](QRImages/Station1QR.png)
 
 ---
 
@@ -673,16 +668,11 @@ This is the set up for station 2:
 
 ---
 
-These are the QR codes and infographic for Station 2.
+This is the QR code for Station 2.
 
-QR code:
+**QR code:**
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station2QR.jpg)
-
-![Alt text](Interacting/MVP%20documentation%20Images/Station2.jpg)
-
-Infographic:
-![Alt text](Interacting/MVP%20documentation%20Images/Station%202.gif)
+![Alt text](QRImages/Station2.png)
 
 ---
 
@@ -765,16 +755,11 @@ This is the setup for station 3:
 
 ---
 
-These are the QR codes and infographic for Station 3.
+This is the QR code for Station 3.
 
-QR code:
+**QR code:**
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station3QR.jpg)
-
-![Alt text](Interacting/MVP%20documentation%20Images/Station3.jpg)
-
-Infographic:
-![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20st3.jpg)
+![Alt text](QRImages/Station3.png)
 
 ---
 
@@ -814,18 +799,14 @@ Similarly to Station 2, for users to select their choice, they would have to tak
 This is the setup for 4:
 
 ![Alt text](Interacting/MVP%20documentation%20Images/Station%204%20full%20setup%20w%20WB.jpg)
+
 ---
 
 These are the QR codes and infographic for Station 3.
 
-QR code:
+**QR code:**
 
-![Alt text](Interacting/MVP%20documentation%20Images/Station4QR.jpg)
-
-![Alt text](Interacting/MVP%20documentation%20Images/Station4.jpg)
-
-Infographic:
-![Alt text](Interacting/MVP%20documentation%20Images/Henry%20Stickmin%20st4.gif)
+![Alt text](QRImages/Station4.png)
 
 ---
 
@@ -860,7 +841,7 @@ Once again, for users to select their choice, they would have to take the RFID t
 
 ---
 
-**[(Back To Top)](#table-of-content-)**
+**[(Back To Top)](#table-of-content)**
 ## Troubleshooting
 
 ### Installation:
