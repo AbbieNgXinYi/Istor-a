@@ -1018,8 +1018,7 @@ Once again, for users to select their choice, they would have to take the RFID t
     3) Now open up Widget Designer 
     4) Open your saved file 
 
----
-#### Network
+### Network
 
 **Netgear router is used and set to wireless connection.**
 
