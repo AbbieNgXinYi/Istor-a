@@ -26,6 +26,7 @@ Title : Stealing The Diamond
    - [Station 4](#station-4)
 
 - **[Gameplay](#gameplay)**
+   - [Demo Video](#demo-video)
 
 - **[Setup Progress](#setup-progress)**
    - **System Diagrams**
@@ -197,6 +198,15 @@ Following up from Station 2 of **scene A**, you start off with bypassing 1 guard
 - Different choices give you different results. (2 different scenarios). Do play through them to maximise the immersive experience we have install for you!
 
 - Enjoy and have fun!
+
+---
+
+**[(Back To Top)](#table-of-content)**
+## Demo Video
+
+* **Here is the demo video of how the story flows:**
+![Alt text]()
+
 
 ---
 
