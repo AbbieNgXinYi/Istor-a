@@ -403,7 +403,26 @@ Lite-Puter DP-81 DMX Splitter
 
 4) The console is connected to the pandora box via LAN which enables the pandora box to communicate with the grandMA3 console by sending command using OSC so that the lighting console can automatically excute the sequences or the cues that was stored inside the console. The OSC command can be set by using the pandora box widget designer.
 
---- 
+5) 
+![Alt text](315Images/SGCAM_20230810_023012926.jpg)
+The lighting effects are stored as lighting cues in the sequences table. the sequences is assigned for each station or each part of the scenes and the lighting cues in each seuences will activate based on the scenes.
+
+
+The code below an example of the lighting cues and sequences that was written in a script inside the widget designer.
+
+```**python**
+if currentSeq1Min=0 and currentSeq1Sec=35 and currentSeq1Frame =05   {
+	OSC_UDP_MA3.Send("OSC_Table_MA3","MA_Cmd",["Go+ Sequence 2 Cue 2"])
+}
+
+elseif currentSeq1Min=0 and currentSeq1Sec=35 and currentSeq1Frame =15 {
+	OSC_UDP_MA3.Send("OSC_Table_MA3","MA_Cmd",["Go+ Sequence 2 Cue 3"])
+}
+```
+
+In each command, the widget designer will activate the lighting sequence and the cues by sending osc command to the grandMA3 Console when it detects the specific timeline and the video sequences in the pandora box. for example, the video is stored in sequences 1 in the pandora box and when the WD detects the video timeline in the pandora box which reaches 00:35:15 (in Minutes:Seconds:Frame), the Widget Designer will send the OSC Command to the grandMA3 to activate sequences 2, cue 3, that was stored in the lighting console.
+
+The lighting effect can be added more than one by inputing the else if command. 
 
 
 #### Phidget Control System
